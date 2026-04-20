@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-20T10:45:00Z",
+  "updated": "2026-04-20T10:55:00Z",
   "quarter": "Q1",
   "fy": "2026",
   "revenue": {
@@ -180,1280 +180,1594 @@
       {
         "name": "Wellbeing other languages — French",
         "client": "Convatec",
+        "status": "In progress",
         "hours": 26.4,
         "personEffort": 11.2,
-        "efficiency": 146,
-        "status": "In progress"
+        "projectEffort": 275.0,
+        "projectHours": 401.3,
+        "efficiency": 146
       },
       {
         "name": "Messaging and one-liner",
         "client": "Optheras",
+        "status": "In progress",
         "hours": 12.7,
         "personEffort": 17.1,
-        "efficiency": 106,
-        "status": "In progress"
+        "projectEffort": 76.0,
+        "projectHours": 80.4,
+        "efficiency": 106
       },
       {
         "name": "Event video",
         "client": "Convatec",
+        "status": "In review",
         "hours": 8.7,
         "personEffort": 7,
-        "efficiency": 155,
-        "status": "In review"
+        "projectEffort": 55.8,
+        "projectHours": 86.6,
+        "efficiency": 155
       },
       {
         "name": "Messaging and one-liner",
         "client": "Wise",
+        "status": "In review",
         "hours": 7.9,
         "personEffort": 10.2,
-        "efficiency": 81,
-        "status": "In review"
+        "projectEffort": 39.2,
+        "projectHours": 31.6,
+        "efficiency": 81
       },
       {
         "name": "Messaging and one-liner",
         "client": "Merit Medical",
+        "status": "Waiting on client",
         "hours": 7.6,
         "personEffort": 20.9,
-        "efficiency": 64,
-        "status": "Waiting on client"
+        "projectEffort": 53.5,
+        "projectHours": 34.4,
+        "efficiency": 64
       },
       {
         "name": "Social media 6 months — Filmed content",
         "client": "Podymos",
+        "status": "In progress",
         "hours": 6.9,
         "personEffort": 15.2,
-        "efficiency": 72,
-        "status": "In progress"
+        "projectEffort": 142.7,
+        "projectHours": 103.0,
+        "efficiency": 72
       },
       {
         "name": "B+E — 4 side — brochure — PAE",
         "client": "Merit Medical",
+        "status": "In progress",
         "hours": 4.4,
         "personEffort": 4.5,
-        "efficiency": 94,
-        "status": "In progress"
+        "projectEffort": 43.9,
+        "projectHours": 41.4,
+        "efficiency": 94
       },
       {
         "name": "6 month social media content plan",
         "client": "Podymos",
+        "status": "Completed",
         "hours": 4.4,
         "personEffort": 4.9,
-        "efficiency": 71,
-        "status": "Completed"
+        "projectEffort": 42.8,
+        "projectHours": 30.5,
+        "efficiency": 71
       },
       {
         "name": "MM251112 B2E — Logo refresh",
         "client": "Merit Medical",
+        "status": "Completed",
         "hours": 3.6,
         "personEffort": 5.6,
-        "efficiency": 83,
-        "status": "Completed"
+        "projectEffort": 38.2,
+        "projectHours": 31.7,
+        "efficiency": 83
       },
       {
         "name": "2. Messaging and one-liner",
         "client": "Merit Medical",
+        "status": "In review",
         "hours": 3.1,
         "personEffort": 2.8,
-        "efficiency": 41,
-        "status": "In review"
+        "projectEffort": 28,
+        "projectHours": 11.5,
+        "efficiency": 41
       },
       {
         "name": "Messaging and one-liner",
         "client": "ABVF",
+        "status": "In review",
         "hours": 2.7,
         "personEffort": 8.5,
-        "efficiency": 65,
-        "status": "In review"
+        "projectEffort": 45.3,
+        "projectHours": 29.4,
+        "efficiency": 65
       },
       {
         "name": "Website home page update",
         "client": "Merit Medical",
+        "status": "Waiting on client",
         "hours": 2.6,
         "personEffort": 4,
-        "efficiency": 82,
-        "status": "Waiting on client"
+        "projectEffort": 15.8,
+        "projectHours": 13.0,
+        "efficiency": 82
       },
       {
         "name": "B+E — 4 side — brochure — UFE",
         "client": "Merit Medical",
+        "status": "Waiting on client",
         "hours": 2.4,
         "personEffort": 4.2,
-        "efficiency": 85,
-        "status": "Waiting on client"
+        "projectEffort": 35.4,
+        "projectHours": 30.2,
+        "efficiency": 85
       },
       {
         "name": "SNM — 3. Patient Counselling Deck — Powerpoint Slides",
         "client": "BridgeStone",
+        "status": "In progress",
         "hours": 1.9,
         "personEffort": 13.8,
-        "efficiency": 14,
-        "status": "In progress"
+        "projectEffort": 161.3,
+        "projectHours": 22.8,
+        "efficiency": 14
       },
       {
         "name": "Continence Care 101 — Easy generator",
         "client": "Convatec",
+        "status": "In progress",
         "hours": 1.9,
         "personEffort": 6,
-        "efficiency": 79,
-        "status": "In progress"
+        "projectEffort": 36.2,
+        "projectHours": 28.6,
+        "efficiency": 79
       },
       {
         "name": "Website home page update",
         "client": "Optheras",
+        "status": "In progress",
         "hours": 1.9,
         "personEffort": 5.1,
-        "efficiency": 90,
-        "status": "In progress"
+        "projectEffort": 25.7,
+        "projectHours": 23.1,
+        "efficiency": 90
       },
       {
         "name": "Features and benefits table",
         "client": "Meril",
+        "status": "In review",
         "hours": 1.6,
         "personEffort": 1,
-        "efficiency": 164,
-        "status": "In review"
+        "projectEffort": 4.5,
+        "projectHours": 7.4,
+        "efficiency": 164
       },
       {
         "name": "Cleaner Vac — 80% Video Team (0010.7)",
         "client": "Argon Medical",
+        "status": "In review",
         "hours": 1.5,
         "personEffort": 1.8,
-        "efficiency": 17,
-        "status": "In review"
+        "projectEffort": 125,
+        "projectHours": 21.1,
+        "efficiency": 17
       },
       {
         "name": "Campaign Example",
         "client": "Podymos",
+        "status": "In progress",
         "hours": 1.5,
         "personEffort": 2.5,
-        "efficiency": 10,
-        "status": "In progress"
+        "projectEffort": 80,
+        "projectHours": 8.1,
+        "efficiency": 10
       },
       {
         "name": "2026 — Social media — May",
         "client": "Convatec",
+        "status": "In review",
         "hours": 1.2,
         "personEffort": 0.5,
-        "efficiency": 94,
-        "status": "In review"
+        "projectEffort": 10.1,
+        "projectHours": 9.4,
+        "efficiency": 94
       },
       {
         "name": "Wired vs Wireless survey",
         "client": "SSG",
+        "status": "Completed",
         "hours": 1.1,
         "personEffort": 1.5,
-        "efficiency": 69,
-        "status": "Completed"
+        "projectEffort": 18.2,
+        "projectHours": 12.7,
+        "efficiency": 69
       },
       {
         "name": "DAC — Campaign — Social media — Phase 2",
         "client": "Convatec",
+        "status": "Completed",
         "hours": 1.0,
         "personEffort": 1.5,
-        "efficiency": 107,
-        "status": "Completed"
+        "projectEffort": 18,
+        "projectHours": 19.2,
+        "efficiency": 107
       },
       {
         "name": "IFU Video — Exports — Italy",
         "client": "Convatec",
+        "status": "In progress",
         "hours": 0.7,
         "personEffort": 1.6,
-        "efficiency": 72,
-        "status": "In progress"
+        "projectEffort": 12.7,
+        "projectHours": 9.1,
+        "efficiency": 72
       },
       {
         "name": "Sula Podcast",
         "client": "Convatec",
+        "status": "In review",
         "hours": 0.6,
         "personEffort": 0.8,
-        "efficiency": 92,
-        "status": "In review"
+        "projectEffort": 5,
+        "projectHours": 4.6,
+        "efficiency": 92
       },
       {
         "name": "2026 — Content Plan — Q2 social media content plan",
         "client": "Convatec",
+        "status": "Completed",
         "hours": 0.6,
         "personEffort": 0.6,
-        "efficiency": 96,
-        "status": "Completed"
+        "projectEffort": 6.1,
+        "projectHours": 5.8,
+        "efficiency": 96
       },
       {
         "name": "2026 — Social media — February",
         "client": "Convatec",
+        "status": "Completed",
         "hours": 0.6,
         "personEffort": 1.1,
-        "efficiency": 66,
-        "status": "Completed"
+        "projectEffort": 18.3,
+        "projectHours": 12.2,
+        "efficiency": 66
       },
       {
         "name": "Choice campaign — Social video resizing",
         "client": "Convatec",
+        "status": "In review",
         "hours": 0.5,
         "personEffort": 0.3,
-        "efficiency": 137,
-        "status": "In review"
+        "projectEffort": 5.3,
+        "projectHours": 7.3,
+        "efficiency": 137
       },
       {
         "name": "KOL testimonial onsite — 2 day shoot",
         "client": "ABVF",
+        "status": "Waiting on client",
         "hours": 0.5,
         "personEffort": 26,
-        "efficiency": 2,
-        "status": "Waiting on client"
+        "projectEffort": 142.1,
+        "projectHours": 2.2,
+        "efficiency": 2
       },
       {
         "name": "Questionnaire for distributors",
         "client": "Alleset",
+        "status": "Not started",
         "hours": 0.3,
         "personEffort": 3,
-        "efficiency": 3,
-        "status": "Not started"
+        "projectEffort": 11,
+        "projectHours": 0.3,
+        "efficiency": 3
       },
       {
         "name": "Additional Estimate",
         "client": "Optheras",
+        "status": "Completed",
         "hours": 0.1,
         "personEffort": 0.1,
-        "efficiency": 126,
-        "status": "Completed"
+        "projectEffort": 1.1,
+        "projectHours": 1.4,
+        "efficiency": 126
       }
     ],
     "accounts:Hannah Shepley": [
       {
         "name": "Advisory Board — KOL testimonial onsite — 1 day",
         "client": "Merit Medical",
+        "status": "In review",
         "hours": 42.7,
         "personEffort": 56.8,
-        "efficiency": 77,
-        "status": "In review"
+        "projectEffort": 183.8,
+        "projectHours": 142.1,
+        "efficiency": 77
       },
       {
         "name": "Messaging and one-liner",
         "client": "Wise",
+        "status": "In review",
         "hours": 19.5,
         "personEffort": 23,
-        "efficiency": 81,
-        "status": "In review"
+        "projectEffort": 39.2,
+        "projectHours": 31.6,
+        "efficiency": 81
       },
       {
         "name": "Cleaner Vac — 80% Video Team (0010.7)",
         "client": "Argon Medical",
+        "status": "In review",
         "hours": 18.9,
         "personEffort": 18.7,
-        "efficiency": 17,
-        "status": "In review"
+        "projectEffort": 125,
+        "projectHours": 21.1,
+        "efficiency": 17
       },
       {
         "name": "1. Pre-work research",
         "client": "Merit Medical",
+        "status": "In progress",
         "hours": 13.1,
         "personEffort": 18,
-        "efficiency": 56,
-        "status": "In progress"
+        "projectEffort": 23.5,
+        "projectHours": 13.2,
+        "efficiency": 56
       },
       {
         "name": "ELEOS — PowerPoint Slides — adding translations",
         "client": "Merit Medical",
+        "status": "In review",
         "hours": 8.5,
         "personEffort": 4.8,
-        "efficiency": 152,
-        "status": "In review"
+        "projectEffort": 35.2,
+        "projectHours": 53.7,
+        "efficiency": 152
       },
       {
         "name": "2. Messaging and one-liner",
         "client": "Merit Medical",
+        "status": "In review",
         "hours": 8.4,
         "personEffort": 11,
-        "efficiency": 41,
-        "status": "In review"
+        "projectEffort": 28,
+        "projectHours": 11.5,
+        "efficiency": 41
       },
       {
         "name": "Digital Nurse Call brochure",
         "client": "SSG",
+        "status": "In review",
         "hours": 8.1,
         "personEffort": 7,
-        "efficiency": 96,
-        "status": "In review"
+        "projectEffort": 44.7,
+        "projectHours": 42.9,
+        "efficiency": 96
       },
       {
         "name": "Features and benefits table",
         "client": "Meril",
+        "status": "In review",
         "hours": 5.8,
         "personEffort": 3.5,
-        "efficiency": 164,
-        "status": "In review"
+        "projectEffort": 4.5,
+        "projectHours": 7.4,
+        "efficiency": 164
       },
       {
         "name": "DNC — PPT changes",
         "client": "SSG",
+        "status": "In review",
         "hours": 5.4,
         "personEffort": 3.4,
-        "efficiency": 151,
-        "status": "In review"
+        "projectEffort": 15.8,
+        "projectHours": 23.9,
+        "efficiency": 151
       },
       {
         "name": "Halma Accelerate Posters — Poster",
         "client": "SSG",
+        "status": "Completed",
         "hours": 5.2,
         "personEffort": 1.8,
-        "efficiency": 108,
-        "status": "Completed"
+        "projectEffort": 20.1,
+        "projectHours": 21.7,
+        "efficiency": 108
       },
       {
         "name": "Halma Accelerate — 10 slide static (Full projectS)",
         "client": "SSG",
+        "status": "In review",
         "hours": 5.0,
         "personEffort": 16,
-        "efficiency": 27,
-        "status": "In review"
+        "projectEffort": 109.5,
+        "projectHours": 29.2,
+        "efficiency": 27
       },
       {
         "name": "BioPince Ultra subtitles",
         "client": "Argon Medical",
+        "status": "In progress",
         "hours": 2.8,
         "personEffort": 10.2,
-        "efficiency": 29,
-        "status": "In progress"
+        "projectEffort": 52,
+        "projectHours": 15.1,
+        "efficiency": 29
       },
       {
         "name": "Shell Conference booth design — 3m 2 wall",
         "client": "Fukuda Denshi",
+        "status": "Completed",
         "hours": 2.7,
         "personEffort": 3.8,
-        "efficiency": 51,
-        "status": "Completed"
+        "projectEffort": 20.9,
+        "projectHours": 10.6,
+        "efficiency": 51
       },
       {
         "name": "Updated brand guidelines",
         "client": "SSG",
+        "status": "In review",
         "hours": 1.6,
         "personEffort": 1,
-        "efficiency": 29,
-        "status": "In review"
+        "projectEffort": 98.3,
+        "projectHours": 28.1,
+        "efficiency": 29
       },
       {
         "name": "CVW-600 brochure update",
         "client": "Fukuda Denshi",
+        "status": "Completed",
         "hours": 0.4,
         "personEffort": 0.4,
-        "efficiency": 229,
-        "status": "Completed"
+        "projectEffort": 2.5,
+        "projectHours": 5.7,
+        "efficiency": 229
       },
       {
         "name": "Business card update*cool.",
         "client": "SSG",
+        "status": "In review",
         "hours": 0.1,
         "personEffort": 0.1,
-        "efficiency": 71,
-        "status": "In review"
+        "projectEffort": 1.1,
+        "projectHours": 0.8,
+        "efficiency": 71
       }
     ],
     "accounts:Camille Hnat": [
       {
         "name": "Messaging and one-liner",
         "client": "Optheras",
+        "status": "In progress",
         "hours": 61.5,
         "personEffort": 49.8,
-        "efficiency": 106,
-        "status": "In progress"
+        "projectEffort": 76.0,
+        "projectHours": 80.4,
+        "efficiency": 106
       },
       {
         "name": "Event video",
         "client": "Convatec",
+        "status": "In review",
         "hours": 33.1,
         "personEffort": 15.8,
-        "efficiency": 155,
-        "status": "In review"
+        "projectEffort": 55.8,
+        "projectHours": 86.6,
+        "efficiency": 155
       },
       {
         "name": "Messaging and one-liner",
         "client": "Merit Medical",
+        "status": "Waiting on client",
         "hours": 23.5,
         "personEffort": 24.3,
-        "efficiency": 64,
-        "status": "Waiting on client"
+        "projectEffort": 53.5,
+        "projectHours": 34.4,
+        "efficiency": 64
       },
       {
         "name": "Messaging and one-liner",
         "client": "ABVF",
+        "status": "In review",
         "hours": 22.9,
         "personEffort": 27.5,
-        "efficiency": 65,
-        "status": "In review"
+        "projectEffort": 45.3,
+        "projectHours": 29.4,
+        "efficiency": 65
       },
       {
         "name": "Website home page update",
         "client": "Optheras",
+        "status": "In progress",
         "hours": 20.6,
         "personEffort": 20,
-        "efficiency": 90,
-        "status": "In progress"
+        "projectEffort": 25.7,
+        "projectHours": 23.1,
+        "efficiency": 90
       },
       {
         "name": "B+E — 4 side — brochure — PAE",
         "client": "Merit Medical",
+        "status": "In progress",
         "hours": 17.6,
         "personEffort": 18,
-        "efficiency": 94,
-        "status": "In progress"
+        "projectEffort": 43.9,
+        "projectHours": 41.4,
+        "efficiency": 94
       },
       {
         "name": "B+E — 4 side — brochure — UFE",
         "client": "Merit Medical",
+        "status": "Waiting on client",
         "hours": 14.2,
         "personEffort": 14.9,
-        "efficiency": 85,
-        "status": "Waiting on client"
+        "projectEffort": 35.4,
+        "projectHours": 30.2,
+        "efficiency": 85
       },
       {
         "name": "Website home page update",
         "client": "Merit Medical",
+        "status": "Waiting on client",
         "hours": 10.4,
         "personEffort": 11.8,
-        "efficiency": 82,
-        "status": "Waiting on client"
+        "projectEffort": 15.8,
+        "projectHours": 13.0,
+        "efficiency": 82
       },
       {
         "name": "DAC — Campaign — Social media — Phase 2",
         "client": "Convatec",
+        "status": "Completed",
         "hours": 8.9,
         "personEffort": 7,
-        "efficiency": 107,
-        "status": "Completed"
+        "projectEffort": 18,
+        "projectHours": 19.2,
+        "efficiency": 107
       },
       {
         "name": "MM251112 B2E — Logo refresh",
         "client": "Merit Medical",
+        "status": "Completed",
         "hours": 5.4,
         "personEffort": 7.8,
-        "efficiency": 83,
-        "status": "Completed"
+        "projectEffort": 38.2,
+        "projectHours": 31.7,
+        "efficiency": 83
       },
       {
         "name": "Event programme",
         "client": "Podymos",
+        "status": "In progress",
         "hours": 3.5,
         "personEffort": 2,
-        "efficiency": 3,
-        "status": "In progress"
+        "projectEffort": 126.6,
+        "projectHours": 4.4,
+        "efficiency": 3
       },
       {
         "name": "ELEOS — PowerPoint Slides — adding translations",
         "client": "Merit Medical",
+        "status": "In review",
         "hours": 3.2,
         "personEffort": 2.2,
-        "efficiency": 152,
-        "status": "In review"
+        "projectEffort": 35.2,
+        "projectHours": 53.7,
+        "efficiency": 152
       },
       {
         "name": "B2E — UFE PAE illustrations",
         "client": "Merit Medical",
+        "status": "In progress",
         "hours": 2.4,
         "personEffort": 4.1,
-        "efficiency": 18,
-        "status": "In progress"
+        "projectEffort": 13.6,
+        "projectHours": 2.4,
+        "efficiency": 18
       },
       {
         "name": "KOL testimonial onsite — 2 day shoot",
         "client": "ABVF",
+        "status": "Waiting on client",
         "hours": 1.8,
         "personEffort": 25.1,
-        "efficiency": 2,
-        "status": "Waiting on client"
+        "projectEffort": 142.1,
+        "projectHours": 2.2,
+        "efficiency": 2
       },
       {
         "name": "B+E — New colour palette",
         "client": "Merit Medical",
+        "status": "Completed",
         "hours": 1.5,
         "personEffort": 1.5,
-        "efficiency": 55,
-        "status": "Completed"
+        "projectEffort": 7.9,
+        "projectHours": 4.3,
+        "efficiency": 55
       },
       {
         "name": "B+E — Brand elements",
         "client": "Merit Medical",
+        "status": "Completed",
         "hours": 1.4,
         "personEffort": 4.5,
-        "efficiency": 13,
-        "status": "Completed"
+        "projectEffort": 21.6,
+        "projectHours": 2.8,
+        "efficiency": 13
       },
       {
         "name": "Additional Estimate",
         "client": "Optheras",
+        "status": "Completed",
         "hours": 1.0,
         "personEffort": 1,
-        "efficiency": 126,
-        "status": "Completed"
+        "projectEffort": 1.1,
+        "projectHours": 1.4,
+        "efficiency": 126
       },
       {
         "name": "BE Phase 2 — Embo Product Family Catalogue — 60 pg",
         "client": "Merit Medical",
+        "status": "Not started",
         "hours": 0.7,
         "personEffort": 16.5,
-        "efficiency": 1,
-        "status": "Not started"
+        "projectEffort": 111,
+        "projectHours": 0.7,
+        "efficiency": 1
       },
       {
         "name": "B2E — Product inserts",
         "client": "Merit Medical",
+        "status": "Not started",
         "hours": 0.5,
         "personEffort": 0.5,
-        "efficiency": 2,
-        "status": "Not started"
+        "projectEffort": 24.8,
+        "projectHours": 0.5,
+        "efficiency": 2
       },
       {
         "name": "BE Phase 2 — PAE brochure OBL",
         "client": "Merit Medical",
+        "status": "Not started",
         "hours": 0.3,
         "personEffort": 3.9,
-        "efficiency": 1,
-        "status": "Not started"
+        "projectEffort": 19.8,
+        "projectHours": 0.3,
+        "efficiency": 1
       },
       {
         "name": "BE Phase 2 — B2E messaging — OBL",
         "client": "Merit Medical",
+        "status": "Not started",
         "hours": 0.2,
         "personEffort": 15.2,
-        "efficiency": 1,
-        "status": "Not started"
+        "projectEffort": 34.8,
+        "projectHours": 0.2,
+        "efficiency": 1
       },
       {
         "name": "BE Phase 2 — UFE brochure OBL",
         "client": "Merit Medical",
+        "status": "Not started",
         "hours": 0.1,
         "personEffort": 3.9,
-        "efficiency": 0,
-        "status": "Not started"
+        "projectEffort": 20.1,
+        "projectHours": 0.1,
+        "efficiency": 0
       }
     ],
     "accounts:Lottie Wurr": [
       {
         "name": "Social media 6 months — Filmed content",
         "client": "Podymos",
+        "status": "In progress",
         "hours": 29.3,
         "personEffort": 32.3,
-        "efficiency": 72,
-        "status": "In progress"
+        "projectEffort": 142.7,
+        "projectHours": 103.0,
+        "efficiency": 72
       },
       {
         "name": "Continence Care 101 — Easy generator",
         "client": "Convatec",
+        "status": "In progress",
         "hours": 23.4,
         "personEffort": 24,
-        "efficiency": 79,
-        "status": "In progress"
+        "projectEffort": 36.2,
+        "projectHours": 28.6,
+        "efficiency": 79
       },
       {
         "name": "Wellbeing other languages — French",
         "client": "Convatec",
+        "status": "In progress",
         "hours": 20.9,
         "personEffort": 20.7,
-        "efficiency": 146,
-        "status": "In progress"
+        "projectEffort": 275.0,
+        "projectHours": 401.3,
+        "efficiency": 146
       },
       {
         "name": "SNM — 3. Patient Counselling Deck — Powerpoint Slides",
         "client": "BridgeStone",
+        "status": "In progress",
         "hours": 13.3,
         "personEffort": 18.7,
-        "efficiency": 14,
-        "status": "In progress"
+        "projectEffort": 161.3,
+        "projectHours": 22.8,
+        "efficiency": 14
       },
       {
         "name": "6 month social media content plan",
         "client": "Podymos",
+        "status": "Completed",
         "hours": 9.7,
         "personEffort": 11.3,
-        "efficiency": 71,
-        "status": "Completed"
+        "projectEffort": 42.8,
+        "projectHours": 30.5,
+        "efficiency": 71
       },
       {
         "name": "2026 — Social media — April",
         "client": "Convatec",
+        "status": "In review",
         "hours": 7.2,
         "personEffort": 7.2,
-        "efficiency": 90,
-        "status": "In review"
+        "projectEffort": 18.2,
+        "projectHours": 16.4,
+        "efficiency": 90
       },
       {
         "name": "2026 — Social media — February",
         "client": "Convatec",
+        "status": "Completed",
         "hours": 7.1,
         "personEffort": 7.3,
-        "efficiency": 66,
-        "status": "Completed"
+        "projectEffort": 18.3,
+        "projectHours": 12.2,
+        "efficiency": 66
       },
       {
         "name": "IFU Video — Exports — Italy",
         "client": "Convatec",
+        "status": "In progress",
         "hours": 7.0,
         "personEffort": 9.6,
-        "efficiency": 72,
-        "status": "In progress"
+        "projectEffort": 12.7,
+        "projectHours": 9.1,
+        "efficiency": 72
       },
       {
         "name": "SNM — 1. Meeting in a Box — Sales Enablement Library",
         "client": "BridgeStone",
+        "status": "Completed",
         "hours": 5.4,
         "personEffort": 5.5,
-        "efficiency": 96,
-        "status": "Completed"
+        "projectEffort": 24.5,
+        "projectHours": 23.6,
+        "efficiency": 96
       },
       {
         "name": "2026 — Content Plan — Q2 social media content plan",
         "client": "Convatec",
+        "status": "Completed",
         "hours": 5.3,
         "personEffort": 5.5,
-        "efficiency": 96,
-        "status": "Completed"
+        "projectEffort": 6.1,
+        "projectHours": 5.8,
+        "efficiency": 96
       },
       {
         "name": "2026 — Social media — May",
         "client": "Convatec",
+        "status": "In review",
         "hours": 4.8,
         "personEffort": 5.9,
-        "efficiency": 94,
-        "status": "In review"
+        "projectEffort": 10.1,
+        "projectHours": 9.4,
+        "efficiency": 94
       },
       {
         "name": "Halma Accelerate — 10 slide static (Full projectS)",
         "client": "SSG",
+        "status": "In review",
         "hours": 4.5,
         "personEffort": 7.5,
-        "efficiency": 27,
-        "status": "In review"
+        "projectEffort": 109.5,
+        "projectHours": 29.2,
+        "efficiency": 27
       },
       {
         "name": "Sula Podcast",
         "client": "Convatec",
+        "status": "In review",
         "hours": 1.3,
         "personEffort": 1.5,
-        "efficiency": 92,
-        "status": "In review"
+        "projectEffort": 5,
+        "projectHours": 4.6,
+        "efficiency": 92
       },
       {
         "name": "Choice campaign — Social video resizing",
         "client": "Convatec",
+        "status": "In review",
         "hours": 1.2,
         "personEffort": 1.2,
-        "efficiency": 137,
-        "status": "In review"
+        "projectEffort": 5.3,
+        "projectHours": 7.3,
+        "efficiency": 137
       },
       {
         "name": "Events — MedTech World US — Leave pieces — Design only",
         "client": "Podymos",
+        "status": "In progress",
         "hours": 1.2,
         "personEffort": 3.5,
-        "efficiency": 39,
-        "status": "In progress"
+        "projectEffort": 15.3,
+        "projectHours": 6.0,
+        "efficiency": 39
       }
     ],
     "accounts:Heidi Li": [
       {
         "name": "Wellbeing other languages — French",
         "client": "Convatec",
+        "status": "In progress",
         "hours": 66.0,
         "personEffort": 55.8,
-        "efficiency": 146,
-        "status": "In progress"
+        "projectEffort": 275.0,
+        "projectHours": 401.3,
+        "efficiency": 146
       },
       {
         "name": "Advisory Board — KOL testimonial onsite — 1 day",
         "client": "Merit Medical",
+        "status": "In review",
         "hours": 26.9,
         "personEffort": 29.7,
-        "efficiency": 77,
-        "status": "In review"
+        "projectEffort": 183.8,
+        "projectHours": 142.1,
+        "efficiency": 77
       },
       {
         "name": "Digital Nurse Call brochure",
         "client": "SSG",
+        "status": "In review",
         "hours": 9.4,
         "personEffort": 7,
-        "efficiency": 96,
-        "status": "In review"
+        "projectEffort": 44.7,
+        "projectHours": 42.9,
+        "efficiency": 96
       },
       {
         "name": "Wired vs Wireless survey",
         "client": "SSG",
+        "status": "Completed",
         "hours": 5.9,
         "personEffort": 7.8,
-        "efficiency": 69,
-        "status": "Completed"
+        "projectEffort": 18.2,
+        "projectHours": 12.7,
+        "efficiency": 69
       },
       {
         "name": "BioPince Ultra subtitles",
         "client": "Argon Medical",
+        "status": "In progress",
         "hours": 5.1,
         "personEffort": 18.3,
-        "efficiency": 29,
-        "status": "In progress"
+        "projectEffort": 52,
+        "projectHours": 15.1,
+        "efficiency": 29
       },
       {
         "name": "Updated brand guidelines",
         "client": "SSG",
+        "status": "In review",
         "hours": 3.8,
         "personEffort": 5.3,
-        "efficiency": 29,
-        "status": "In review"
+        "projectEffort": 98.3,
+        "projectHours": 28.1,
+        "efficiency": 29
       },
       {
         "name": "CVW-600 brochure update",
         "client": "Fukuda Denshi",
+        "status": "Completed",
         "hours": 1.2,
         "personEffort": 0.8,
-        "efficiency": 229,
-        "status": "Completed"
+        "projectEffort": 2.5,
+        "projectHours": 5.7,
+        "efficiency": 229
       },
       {
         "name": "Shell Conference booth design — 3m 2 wall",
         "client": "Fukuda Denshi",
+        "status": "Completed",
         "hours": 0.7,
         "personEffort": 0.5,
-        "efficiency": 51,
-        "status": "Completed"
+        "projectEffort": 20.9,
+        "projectHours": 10.6,
+        "efficiency": 51
       },
       {
         "name": "Business card update*cool.",
         "client": "SSG",
+        "status": "In review",
         "hours": 0.3,
         "personEffort": 0.6,
-        "efficiency": 71,
-        "status": "In review"
+        "projectEffort": 1.1,
+        "projectHours": 0.8,
+        "efficiency": 71
       }
     ],
     "accounts:Katharine O'Brien": [
       {
         "name": "Wellbeing other languages — French",
         "client": "Convatec",
+        "status": "In progress",
         "hours": 44.4,
         "personEffort": 27,
-        "efficiency": 146,
-        "status": "In progress"
+        "projectEffort": 275.0,
+        "projectHours": 401.3,
+        "efficiency": 146
       },
       {
         "name": "ELEOS — PowerPoint Slides — adding translations",
         "client": "Merit Medical",
+        "status": "In review",
         "hours": 41.5,
         "personEffort": 24.8,
-        "efficiency": 152,
-        "status": "In review"
+        "projectEffort": 35.2,
+        "projectHours": 53.7,
+        "efficiency": 152
       },
       {
         "name": "SNM — 1. Meeting in a Box — Sales Enablement Library",
         "client": "BridgeStone",
+        "status": "Completed",
         "hours": 17.4,
         "personEffort": 18,
-        "efficiency": 96,
-        "status": "Completed"
+        "projectEffort": 24.5,
+        "projectHours": 23.6,
+        "efficiency": 96
       },
       {
         "name": "DNC — PPT changes",
         "client": "SSG",
+        "status": "In review",
         "hours": 8.0,
         "personEffort": 4,
-        "efficiency": 151,
-        "status": "In review"
+        "projectEffort": 15.8,
+        "projectHours": 23.9,
+        "efficiency": 151
       },
       {
         "name": "Wired vs Wireless survey",
         "client": "SSG",
+        "status": "Completed",
         "hours": 2.1,
         "personEffort": 5.5,
-        "efficiency": 69,
-        "status": "Completed"
+        "projectEffort": 18.2,
+        "projectHours": 12.7,
+        "efficiency": 69
       },
       {
         "name": "2026 — Social media — April",
         "client": "Convatec",
+        "status": "In review",
         "hours": 1.1,
         "personEffort": 1.8,
-        "efficiency": 90,
-        "status": "In review"
+        "projectEffort": 18.2,
+        "projectHours": 16.4,
+        "efficiency": 90
       },
       {
         "name": "2026 — Social media — February",
         "client": "Convatec",
+        "status": "Completed",
         "hours": 0.8,
         "personEffort": 1.5,
-        "efficiency": 66,
-        "status": "Completed"
+        "projectEffort": 18.3,
+        "projectHours": 12.2,
+        "efficiency": 66
       }
     ],
     "accounts:Liz Lindsay": [
       {
         "name": "Halma Accelerate — 10 slide static (Full projectS)",
         "client": "SSG",
+        "status": "In review",
         "hours": 4.6,
         "personEffort": 2.5,
-        "efficiency": 27,
-        "status": "In review"
+        "projectEffort": 109.5,
+        "projectHours": 29.2,
+        "efficiency": 27
       },
       {
         "name": "Digital Nurse Call brochure",
         "client": "SSG",
+        "status": "In review",
         "hours": 2.6,
         "personEffort": 1.2,
-        "efficiency": 96,
-        "status": "In review"
+        "projectEffort": 44.7,
+        "projectHours": 42.9,
+        "efficiency": 96
       },
       {
         "name": "Campaign Example",
         "client": "Podymos",
+        "status": "In progress",
         "hours": 0.5,
         "personEffort": 2.8,
-        "efficiency": 10,
-        "status": "In progress"
+        "projectEffort": 80,
+        "projectHours": 8.1,
+        "efficiency": 10
       },
       {
         "name": "Sales Manger — Business Cards",
         "client": "AdTec",
+        "status": "Not started",
         "hours": 0.1,
         "personEffort": 0.1,
-        "efficiency": 14,
-        "status": "Not started"
+        "projectEffort": 0.6,
+        "projectHours": 0.1,
+        "efficiency": 14
       }
     ],
     "design:Chris Ribbens": [
       {
         "name": "Event video",
         "client": "Convatec",
+        "status": "In review",
         "hours": 24.0,
         "personEffort": 12.2,
-        "efficiency": 155,
-        "status": "In review"
+        "projectEffort": 55.8,
+        "projectHours": 86.6,
+        "efficiency": 155
       },
       {
         "name": "Updated brand guidelines",
         "client": "SSG",
+        "status": "In review",
         "hours": 22.8,
         "personEffort": 69,
-        "efficiency": 29,
-        "status": "In review"
+        "projectEffort": 98.3,
+        "projectHours": 28.1,
+        "efficiency": 29
       },
       {
         "name": "MM251112 B2E — Logo refresh",
         "client": "Merit Medical",
+        "status": "Completed",
         "hours": 22.7,
         "personEffort": 24.6,
-        "efficiency": 83,
-        "status": "Completed"
+        "projectEffort": 38.2,
+        "projectHours": 31.7,
+        "efficiency": 83
       },
       {
         "name": "Wellbeing other languages — French",
         "client": "Convatec",
+        "status": "In progress",
         "hours": 22.1,
         "personEffort": 9.5,
-        "efficiency": 146,
-        "status": "In progress"
+        "projectEffort": 275.0,
+        "projectHours": 401.3,
+        "efficiency": 146
       },
       {
         "name": "Digital Nurse Call brochure",
         "client": "SSG",
+        "status": "In review",
         "hours": 14.5,
         "personEffort": 14,
-        "efficiency": 96,
-        "status": "In review"
+        "projectEffort": 44.7,
+        "projectHours": 42.9,
+        "efficiency": 96
       },
       {
         "name": "B+E — 4 side — brochure — UFE",
         "client": "Merit Medical",
+        "status": "Waiting on client",
         "hours": 13.6,
         "personEffort": 16.2,
-        "efficiency": 85,
-        "status": "Waiting on client"
+        "projectEffort": 35.4,
+        "projectHours": 30.2,
+        "efficiency": 85
       },
       {
         "name": "B+E — 4 side — brochure — PAE",
         "client": "Merit Medical",
+        "status": "In progress",
         "hours": 13.5,
         "personEffort": 15.2,
-        "efficiency": 94,
-        "status": "In progress"
+        "projectEffort": 43.9,
+        "projectHours": 41.4,
+        "efficiency": 94
       },
       {
         "name": "6 month social media content plan",
         "client": "Podymos",
+        "status": "Completed",
         "hours": 8.2,
         "personEffort": 9.1,
-        "efficiency": 71,
-        "status": "Completed"
+        "projectEffort": 42.8,
+        "projectHours": 30.5,
+        "efficiency": 71
       },
       {
         "name": "Halma Accelerate Posters — Poster",
         "client": "SSG",
+        "status": "Completed",
         "hours": 8.1,
         "personEffort": 5.3,
-        "efficiency": 108,
-        "status": "Completed"
+        "projectEffort": 20.1,
+        "projectHours": 21.7,
+        "efficiency": 108
       },
       {
         "name": "SNM — 3. Patient Counselling Deck — Powerpoint Slides",
         "client": "BridgeStone",
+        "status": "In progress",
         "hours": 7.6,
         "personEffort": 27.3,
-        "efficiency": 14,
-        "status": "In progress"
+        "projectEffort": 161.3,
+        "projectHours": 22.8,
+        "efficiency": 14
       },
       {
         "name": "Halma Accelerate — 10 slide static (Full projectS)",
         "client": "SSG",
+        "status": "In review",
         "hours": 7.5,
         "personEffort": 12.2,
-        "efficiency": 27,
-        "status": "In review"
+        "projectEffort": 109.5,
+        "projectHours": 29.2,
+        "efficiency": 27
       },
       {
         "name": "Shell Conference booth design — 3m 2 wall",
         "client": "Fukuda Denshi",
+        "status": "Completed",
         "hours": 7.0,
         "personEffort": 14.2,
-        "efficiency": 51,
-        "status": "Completed"
+        "projectEffort": 20.9,
+        "projectHours": 10.6,
+        "efficiency": 51
       },
       {
         "name": "Campaign Example",
         "client": "Podymos",
+        "status": "In progress",
         "hours": 6.1,
         "personEffort": 18,
-        "efficiency": 10,
-        "status": "In progress"
+        "projectEffort": 80,
+        "projectHours": 8.1,
+        "efficiency": 10
       },
       {
         "name": "B+E — New colour palette",
         "client": "Merit Medical",
+        "status": "Completed",
         "hours": 2.7,
         "personEffort": 5.5,
-        "efficiency": 55,
-        "status": "Completed"
+        "projectEffort": 7.9,
+        "projectHours": 4.3,
+        "efficiency": 55
       },
       {
         "name": "Wired vs Wireless survey",
         "client": "SSG",
+        "status": "Completed",
         "hours": 2.4,
         "personEffort": 2,
-        "efficiency": 69,
-        "status": "Completed"
+        "projectEffort": 18.2,
+        "projectHours": 12.7,
+        "efficiency": 69
       },
       {
         "name": "B+E — Brand elements",
         "client": "Merit Medical",
+        "status": "Completed",
         "hours": 1.5,
         "personEffort": 12.5,
-        "efficiency": 13,
-        "status": "Completed"
+        "projectEffort": 21.6,
+        "projectHours": 2.8,
+        "efficiency": 13
       },
       {
         "name": "CVW-600 brochure update",
         "client": "Fukuda Denshi",
+        "status": "Completed",
         "hours": 0.7,
         "personEffort": 0.8,
-        "efficiency": 229,
-        "status": "Completed"
+        "projectEffort": 2.5,
+        "projectHours": 5.7,
+        "efficiency": 229
       },
       {
         "name": "Business card update*cool.",
         "client": "SSG",
+        "status": "In review",
         "hours": 0.4,
         "personEffort": 0.3,
-        "efficiency": 71,
-        "status": "In review"
+        "projectEffort": 1.1,
+        "projectHours": 0.8,
+        "efficiency": 71
       }
     ],
     "design:Abby Roberts": [
       {
         "name": "Advisory Board — KOL testimonial onsite — 1 day",
         "client": "Merit Medical",
+        "status": "In review",
         "hours": 7.5,
         "personEffort": 14.2,
-        "efficiency": 77,
-        "status": "In review"
+        "projectEffort": 183.8,
+        "projectHours": 142.1,
+        "efficiency": 77
       },
       {
         "name": "Halma Accelerate — 10 slide static (Full projectS)",
         "client": "SSG",
+        "status": "In review",
         "hours": 7.3,
         "personEffort": 11.4,
-        "efficiency": 27,
-        "status": "In review"
+        "projectEffort": 109.5,
+        "projectHours": 29.2,
+        "efficiency": 27
       },
       {
         "name": "6 month social media content plan",
         "client": "Podymos",
+        "status": "Completed",
         "hours": 6.3,
         "personEffort": 8,
-        "efficiency": 71,
-        "status": "Completed"
+        "projectEffort": 42.8,
+        "projectHours": 30.5,
+        "efficiency": 71
       },
       {
         "name": "DNC — PPT changes",
         "client": "SSG",
+        "status": "In review",
         "hours": 5.7,
         "personEffort": 5.7,
-        "efficiency": 151,
-        "status": "In review"
+        "projectEffort": 15.8,
+        "projectHours": 23.9,
+        "efficiency": 151
       },
       {
         "name": "DAC — Campaign — Social media — Phase 2",
         "client": "Convatec",
+        "status": "Completed",
         "hours": 5.5,
         "personEffort": 6,
-        "efficiency": 107,
-        "status": "Completed"
+        "projectEffort": 18,
+        "projectHours": 19.2,
+        "efficiency": 107
       },
       {
         "name": "B+E — 4 side — brochure — PAE",
         "client": "Merit Medical",
+        "status": "In progress",
         "hours": 4.1,
         "personEffort": 4,
-        "efficiency": 94,
-        "status": "In progress"
+        "projectEffort": 43.9,
+        "projectHours": 41.4,
+        "efficiency": 94
       },
       {
         "name": "Halma Accelerate Posters — Poster",
         "client": "SSG",
+        "status": "Completed",
         "hours": 3.5,
         "personEffort": 5.2,
-        "efficiency": 108,
-        "status": "Completed"
+        "projectEffort": 20.1,
+        "projectHours": 21.7,
+        "efficiency": 108
       },
       {
         "name": "Digital Nurse Call brochure",
         "client": "SSG",
+        "status": "In review",
         "hours": 3.1,
         "personEffort": 1.8,
-        "efficiency": 96,
-        "status": "In review"
+        "projectEffort": 44.7,
+        "projectHours": 42.9,
+        "efficiency": 96
       },
       {
         "name": "2026 — Social media — April",
         "client": "Convatec",
+        "status": "In review",
         "hours": 3,
         "personEffort": 3.5,
-        "efficiency": 90,
-        "status": "In review"
+        "projectEffort": 18.2,
+        "projectHours": 16.4,
+        "efficiency": 90
       },
       {
         "name": "2026 — Social media — February",
         "client": "Convatec",
+        "status": "Completed",
         "hours": 3.0,
         "personEffort": 3,
-        "efficiency": 66,
-        "status": "Completed"
+        "projectEffort": 18.3,
+        "projectHours": 12.2,
+        "efficiency": 66
       },
       {
         "name": "Sula Podcast",
         "client": "Convatec",
+        "status": "In review",
         "hours": 0.5,
         "personEffort": 0.6,
-        "efficiency": 92,
-        "status": "In review"
+        "projectEffort": 5,
+        "projectHours": 4.6,
+        "efficiency": 92
       }
     ],
     "design:Jagjot Golhar": [
       {
         "name": "Social media 6 months — Filmed content",
         "client": "Podymos",
+        "status": "In progress",
         "hours": 5.8,
         "personEffort": 4,
-        "efficiency": 72,
-        "status": "In progress"
+        "projectEffort": 142.7,
+        "projectHours": 103.0,
+        "efficiency": 72
       },
       {
         "name": "Messaging and one-liner",
         "client": "Optheras",
+        "status": "In progress",
         "hours": 5.7,
         "personEffort": 7.7,
-        "efficiency": 106,
-        "status": "In progress"
+        "projectEffort": 76.0,
+        "projectHours": 80.4,
+        "efficiency": 106
       },
       {
         "name": "Digital Nurse Call brochure",
         "client": "SSG",
+        "status": "In review",
         "hours": 4.3,
         "personEffort": 3.5,
-        "efficiency": 96,
-        "status": "In review"
+        "projectEffort": 44.7,
+        "projectHours": 42.9,
+        "efficiency": 96
       },
       {
         "name": "DNC — PPT changes",
         "client": "SSG",
+        "status": "In review",
         "hours": 4.2,
         "personEffort": 2.7,
-        "efficiency": 151,
-        "status": "In review"
+        "projectEffort": 15.8,
+        "projectHours": 23.9,
+        "efficiency": 151
       },
       {
         "name": "Messaging and one-liner",
         "client": "Wise",
+        "status": "In review",
         "hours": 4.2,
         "personEffort": 4,
-        "efficiency": 81,
-        "status": "In review"
+        "projectEffort": 39.2,
+        "projectHours": 31.6,
+        "efficiency": 81
       },
       {
         "name": "Messaging and one-liner",
         "client": "ABVF",
+        "status": "In review",
         "hours": 3.8,
         "personEffort": 4,
-        "efficiency": 65,
-        "status": "In review"
+        "projectEffort": 45.3,
+        "projectHours": 29.4,
+        "efficiency": 65
       },
       {
         "name": "2026 — Social media — May",
         "client": "Convatec",
+        "status": "In review",
         "hours": 3.4,
         "personEffort": 3.5,
-        "efficiency": 94,
-        "status": "In review"
+        "projectEffort": 10.1,
+        "projectHours": 9.4,
+        "efficiency": 94
       },
       {
         "name": "CVW-600 brochure update",
         "client": "Fukuda Denshi",
+        "status": "Completed",
         "hours": 3.3,
         "personEffort": 0.5,
-        "efficiency": 229,
-        "status": "Completed"
+        "projectEffort": 2.5,
+        "projectHours": 5.7,
+        "efficiency": 229
       },
       {
         "name": "Halma Accelerate Posters — Poster",
         "client": "SSG",
+        "status": "Completed",
         "hours": 3.3,
         "personEffort": 1.5,
-        "efficiency": 108,
-        "status": "Completed"
+        "projectEffort": 20.1,
+        "projectHours": 21.7,
+        "efficiency": 108
       },
       {
         "name": "DAC — Campaign — Social media — Phase 2",
         "client": "Convatec",
+        "status": "Completed",
         "hours": 2.7,
         "personEffort": 2.5,
-        "efficiency": 107,
-        "status": "Completed"
+        "projectEffort": 18,
+        "projectHours": 19.2,
+        "efficiency": 107
       },
       {
         "name": "Sula Podcast",
         "client": "Convatec",
+        "status": "In review",
         "hours": 2.2,
         "personEffort": 0.4,
-        "efficiency": 92,
-        "status": "In review"
+        "projectEffort": 5,
+        "projectHours": 4.6,
+        "efficiency": 92
       },
       {
         "name": "Messaging and one-liner",
         "client": "Merit Medical",
+        "status": "Waiting on client",
         "hours": 1.9,
         "personEffort": 5,
-        "efficiency": 64,
-        "status": "Waiting on client"
+        "projectEffort": 53.5,
+        "projectHours": 34.4,
+        "efficiency": 64
       },
       {
         "name": "IFU Video — Exports — Italy",
         "client": "Convatec",
+        "status": "In progress",
         "hours": 1.4,
         "personEffort": 1.5,
-        "efficiency": 72,
-        "status": "In progress"
+        "projectEffort": 12.7,
+        "projectHours": 9.1,
+        "efficiency": 72
       },
       {
         "name": "2026 — Social media — April",
         "client": "Convatec",
+        "status": "In review",
         "hours": 1.0,
         "personEffort": 1,
-        "efficiency": 90,
-        "status": "In review"
+        "projectEffort": 18.2,
+        "projectHours": 16.4,
+        "efficiency": 90
       },
       {
         "name": "Wired vs Wireless survey",
         "client": "SSG",
+        "status": "Completed",
         "hours": 0.8,
         "personEffort": 1,
-        "efficiency": 69,
-        "status": "Completed"
+        "projectEffort": 18.2,
+        "projectHours": 12.7,
+        "efficiency": 69
       }
     ],
     "video:Ben Brewer": [
       {
         "name": "Wellbeing other languages — French",
         "client": "Convatec",
+        "status": "In progress",
         "hours": 162.1,
         "personEffort": 109,
-        "efficiency": 146,
-        "status": "In progress"
+        "projectEffort": 275.0,
+        "projectHours": 401.3,
+        "efficiency": 146
       },
       {
         "name": "Social media 6 months — Filmed content",
         "client": "Podymos",
+        "status": "In progress",
         "hours": 30.2,
         "personEffort": 35.2,
-        "efficiency": 72,
-        "status": "In progress"
+        "projectEffort": 142.7,
+        "projectHours": 103.0,
+        "efficiency": 72
       },
       {
         "name": "Events — MedTech World US — Leave pieces — Design only",
         "client": "Podymos",
+        "status": "In progress",
         "hours": 4.7,
         "personEffort": 9.5,
-        "efficiency": 39,
-        "status": "In progress"
+        "projectEffort": 15.3,
+        "projectHours": 6.0,
+        "efficiency": 39
       },
       {
         "name": "2026 — Social media — April",
         "client": "Convatec",
+        "status": "In review",
         "hours": 2.6,
         "personEffort": 2.6,
-        "efficiency": 90,
-        "status": "In review"
+        "projectEffort": 18.2,
+        "projectHours": 16.4,
+        "efficiency": 90
       }
     ],
     "video:Ellis Norton": [
       {
         "name": "Advisory Board — KOL testimonial onsite — 1 day",
         "client": "Merit Medical",
+        "status": "In review",
         "hours": 58.6,
         "personEffort": 56.7,
-        "efficiency": 77,
-        "status": "In review"
+        "projectEffort": 183.8,
+        "projectHours": 142.1,
+        "efficiency": 77
       },
       {
         "name": "Social media 6 months — Filmed content",
         "client": "Podymos",
+        "status": "In progress",
         "hours": 21.2,
         "personEffort": 24.5,
-        "efficiency": 72,
-        "status": "In progress"
+        "projectEffort": 142.7,
+        "projectHours": 103.0,
+        "efficiency": 72
       },
       {
         "name": "Event video",
         "client": "Convatec",
+        "status": "In review",
         "hours": 16.0,
         "personEffort": 18,
-        "efficiency": 155,
-        "status": "In review"
+        "projectEffort": 55.8,
+        "projectHours": 86.6,
+        "efficiency": 155
       },
       {
         "name": "Belfast — Video Editing",
         "client": "Convatec",
+        "status": "Not started",
         "hours": 7.1,
         "personEffort": 5,
-        "efficiency": 18,
-        "status": "Not started"
+        "projectEffort": 40,
+        "projectHours": 7.3,
+        "efficiency": 18
       },
       {
         "name": "BioPince Ultra subtitles",
         "client": "Argon Medical",
+        "status": "In progress",
         "hours": 5.8,
         "personEffort": 12.5,
-        "efficiency": 29,
-        "status": "In progress"
+        "projectEffort": 52,
+        "projectHours": 15.1,
+        "efficiency": 29
       },
       {
         "name": "Choice campaign — Social video resizing",
         "client": "Convatec",
+        "status": "In review",
         "hours": 5.6,
         "personEffort": 3.4,
-        "efficiency": 137,
-        "status": "In review"
+        "projectEffort": 5.3,
+        "projectHours": 7.3,
+        "efficiency": 137
       }
     ]
   }
