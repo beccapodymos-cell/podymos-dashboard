@@ -706,21 +706,26 @@ function openPanel(dept, person, activeView) {
   if (!projects.length) {
     list.innerHTML = '<div class="no-projects">No credited projects yet (needs ≥ 5% of project time to appear here).</div>';
   } else {
-    list.innerHTML = projects.map(p => `
+    list.innerHTML = projects.map(p => {
+      // Personal efficiency: this person's hours vs their own effort allocation
+      const personEff = (p.personEffort && p.personEffort > 0)
+        ? Math.round((p.hours / p.personEffort) * 100)
+        : null;
+      return `
       <div class="project">
         <div class="project-top">
           <div>
             <div class="project-name">${p.name}</div>
             <div class="project-client">${p.client || ''}</div>
           </div>
-          <div class="project-eff ${scoreClass(p.efficiency)}">${fmtPct(p.efficiency)}<span class="pct">%</span></div>
+          <div class="project-eff ${scoreClass(personEff)}">${personEff == null ? '—' : personEff}<span class="pct">%</span></div>
         </div>
         <div class="project-meta">
-          <div class="project-meta-item"><strong>${p.hours}h</strong> of ${p.effort}h</div>
+          <div class="project-meta-item"><strong class="${scoreClass(personEff)}">${p.hours}h</strong> of ${p.personEffort}h allocated</div>
           <div class="project-status">${p.status}</div>
         </div>
       </div>
-    `).join('');
+    `;}).join('');
   }
 
   $('panel').classList.add('show');
