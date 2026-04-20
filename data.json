@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-20T10:55:00Z",
+  "updated": "2026-04-20T13:20:00Z",
   "quarter": "Q1",
   "fy": "2026",
   "revenue": {
@@ -185,7 +185,9 @@
         "personEffort": 11.2,
         "projectEffort": 275.0,
         "projectHours": 401.3,
-        "efficiency": 146
+        "efficiency": 146,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Messaging and one-liner",
@@ -195,7 +197,9 @@
         "personEffort": 17.1,
         "projectEffort": 76.0,
         "projectHours": 80.4,
-        "efficiency": 106
+        "efficiency": 106,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Event video",
@@ -205,7 +209,9 @@
         "personEffort": 7,
         "projectEffort": 55.8,
         "projectHours": 86.6,
-        "efficiency": 155
+        "efficiency": 155,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Messaging and one-liner",
@@ -215,7 +221,9 @@
         "personEffort": 10.2,
         "projectEffort": 39.2,
         "projectHours": 31.6,
-        "efficiency": 81
+        "efficiency": 81,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Messaging and one-liner",
@@ -225,7 +233,9 @@
         "personEffort": 20.9,
         "projectEffort": 53.5,
         "projectHours": 34.4,
-        "efficiency": 64
+        "efficiency": 64,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Social media 6 months — Filmed content",
@@ -235,7 +245,9 @@
         "personEffort": 15.2,
         "projectEffort": 142.7,
         "projectHours": 103.0,
-        "efficiency": 72
+        "efficiency": 72,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "B+E — 4 side — brochure — PAE",
@@ -245,7 +257,9 @@
         "personEffort": 4.5,
         "projectEffort": 43.9,
         "projectHours": 41.4,
-        "efficiency": 94
+        "efficiency": 94,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "6 month social media content plan",
@@ -255,7 +269,9 @@
         "personEffort": 4.9,
         "projectEffort": 42.8,
         "projectHours": 30.5,
-        "efficiency": 71
+        "efficiency": 71,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "MM251112 B2E — Logo refresh",
@@ -265,7 +281,9 @@
         "personEffort": 5.6,
         "projectEffort": 38.2,
         "projectHours": 31.7,
-        "efficiency": 83
+        "efficiency": 83,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "2. Messaging and one-liner",
@@ -275,7 +293,9 @@
         "personEffort": 2.8,
         "projectEffort": 28,
         "projectHours": 11.5,
-        "efficiency": 41
+        "efficiency": 41,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Messaging and one-liner",
@@ -285,7 +305,9 @@
         "personEffort": 8.5,
         "projectEffort": 45.3,
         "projectHours": 29.4,
-        "efficiency": 65
+        "efficiency": 65,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Website home page update",
@@ -295,7 +317,9 @@
         "personEffort": 4,
         "projectEffort": 15.8,
         "projectHours": 13.0,
-        "efficiency": 82
+        "efficiency": 82,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "B+E — 4 side — brochure — UFE",
@@ -305,7 +329,9 @@
         "personEffort": 4.2,
         "projectEffort": 35.4,
         "projectHours": 30.2,
-        "efficiency": 85
+        "efficiency": 85,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "SNM — 3. Patient Counselling Deck — Powerpoint Slides",
@@ -315,7 +341,9 @@
         "personEffort": 13.8,
         "projectEffort": 161.3,
         "projectHours": 22.8,
-        "efficiency": 14
+        "efficiency": 14,
+        "countsCurrent": false,
+        "countsFinal": false
       },
       {
         "name": "Continence Care 101 — Easy generator",
@@ -325,7 +353,9 @@
         "personEffort": 6,
         "projectEffort": 36.2,
         "projectHours": 28.6,
-        "efficiency": 79
+        "efficiency": 79,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Website home page update",
@@ -335,7 +365,9 @@
         "personEffort": 5.1,
         "projectEffort": 25.7,
         "projectHours": 23.1,
-        "efficiency": 90
+        "efficiency": 90,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Features and benefits table",
@@ -345,7 +377,9 @@
         "personEffort": 1,
         "projectEffort": 4.5,
         "projectHours": 7.4,
-        "efficiency": 164
+        "efficiency": 164,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Cleaner Vac — 80% Video Team (0010.7)",
@@ -355,7 +389,9 @@
         "personEffort": 1.8,
         "projectEffort": 125,
         "projectHours": 21.1,
-        "efficiency": 17
+        "efficiency": 17,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Campaign Example",
@@ -365,7 +401,9 @@
         "personEffort": 2.5,
         "projectEffort": 80,
         "projectHours": 8.1,
-        "efficiency": 10
+        "efficiency": 10,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "2026 — Social media — May",
@@ -375,7 +413,9 @@
         "personEffort": 0.5,
         "projectEffort": 10.1,
         "projectHours": 9.4,
-        "efficiency": 94
+        "efficiency": 94,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Wired vs Wireless survey",
@@ -385,7 +425,9 @@
         "personEffort": 1.5,
         "projectEffort": 18.2,
         "projectHours": 12.7,
-        "efficiency": 69
+        "efficiency": 69,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "DAC — Campaign — Social media — Phase 2",
@@ -395,7 +437,9 @@
         "personEffort": 1.5,
         "projectEffort": 18,
         "projectHours": 19.2,
-        "efficiency": 107
+        "efficiency": 107,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "IFU Video — Exports — Italy",
@@ -405,7 +449,9 @@
         "personEffort": 1.6,
         "projectEffort": 12.7,
         "projectHours": 9.1,
-        "efficiency": 72
+        "efficiency": 72,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Sula Podcast",
@@ -415,7 +461,9 @@
         "personEffort": 0.8,
         "projectEffort": 5,
         "projectHours": 4.6,
-        "efficiency": 92
+        "efficiency": 92,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "2026 — Content Plan — Q2 social media content plan",
@@ -425,7 +473,9 @@
         "personEffort": 0.6,
         "projectEffort": 6.1,
         "projectHours": 5.8,
-        "efficiency": 96
+        "efficiency": 96,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "2026 — Social media — February",
@@ -435,7 +485,9 @@
         "personEffort": 1.1,
         "projectEffort": 18.3,
         "projectHours": 12.2,
-        "efficiency": 66
+        "efficiency": 66,
+        "countsCurrent": false,
+        "countsFinal": false
       },
       {
         "name": "Choice campaign — Social video resizing",
@@ -445,7 +497,9 @@
         "personEffort": 0.3,
         "projectEffort": 5.3,
         "projectHours": 7.3,
-        "efficiency": 137
+        "efficiency": 137,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "KOL testimonial onsite — 2 day shoot",
@@ -455,7 +509,9 @@
         "personEffort": 26,
         "projectEffort": 142.1,
         "projectHours": 2.2,
-        "efficiency": 2
+        "efficiency": 2,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Questionnaire for distributors",
@@ -465,7 +521,9 @@
         "personEffort": 3,
         "projectEffort": 11,
         "projectHours": 0.3,
-        "efficiency": 3
+        "efficiency": 3,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Additional Estimate",
@@ -475,7 +533,9 @@
         "personEffort": 0.1,
         "projectEffort": 1.1,
         "projectHours": 1.4,
-        "efficiency": 126
+        "efficiency": 126,
+        "countsCurrent": true,
+        "countsFinal": true
       }
     ],
     "accounts:Hannah Shepley": [
@@ -487,7 +547,9 @@
         "personEffort": 56.8,
         "projectEffort": 183.8,
         "projectHours": 142.1,
-        "efficiency": 77
+        "efficiency": 77,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Messaging and one-liner",
@@ -497,7 +559,9 @@
         "personEffort": 23,
         "projectEffort": 39.2,
         "projectHours": 31.6,
-        "efficiency": 81
+        "efficiency": 81,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Cleaner Vac — 80% Video Team (0010.7)",
@@ -507,7 +571,9 @@
         "personEffort": 18.7,
         "projectEffort": 125,
         "projectHours": 21.1,
-        "efficiency": 17
+        "efficiency": 17,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "1. Pre-work research",
@@ -517,7 +583,9 @@
         "personEffort": 18,
         "projectEffort": 23.5,
         "projectHours": 13.2,
-        "efficiency": 56
+        "efficiency": 56,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "ELEOS — PowerPoint Slides — adding translations",
@@ -527,7 +595,9 @@
         "personEffort": 4.8,
         "projectEffort": 35.2,
         "projectHours": 53.7,
-        "efficiency": 152
+        "efficiency": 152,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "2. Messaging and one-liner",
@@ -537,7 +607,9 @@
         "personEffort": 11,
         "projectEffort": 28,
         "projectHours": 11.5,
-        "efficiency": 41
+        "efficiency": 41,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Digital Nurse Call brochure",
@@ -547,7 +619,9 @@
         "personEffort": 7,
         "projectEffort": 44.7,
         "projectHours": 42.9,
-        "efficiency": 96
+        "efficiency": 96,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Features and benefits table",
@@ -557,7 +631,9 @@
         "personEffort": 3.5,
         "projectEffort": 4.5,
         "projectHours": 7.4,
-        "efficiency": 164
+        "efficiency": 164,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "DNC — PPT changes",
@@ -567,7 +643,9 @@
         "personEffort": 3.4,
         "projectEffort": 15.8,
         "projectHours": 23.9,
-        "efficiency": 151
+        "efficiency": 151,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Halma Accelerate Posters — Poster",
@@ -577,7 +655,9 @@
         "personEffort": 1.8,
         "projectEffort": 20.1,
         "projectHours": 21.7,
-        "efficiency": 108
+        "efficiency": 108,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "Halma Accelerate — 10 slide static (Full projectS)",
@@ -587,7 +667,9 @@
         "personEffort": 16,
         "projectEffort": 109.5,
         "projectHours": 29.2,
-        "efficiency": 27
+        "efficiency": 27,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "BioPince Ultra subtitles",
@@ -597,7 +679,9 @@
         "personEffort": 10.2,
         "projectEffort": 52,
         "projectHours": 15.1,
-        "efficiency": 29
+        "efficiency": 29,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Shell Conference booth design — 3m 2 wall",
@@ -607,7 +691,9 @@
         "personEffort": 3.8,
         "projectEffort": 20.9,
         "projectHours": 10.6,
-        "efficiency": 51
+        "efficiency": 51,
+        "countsCurrent": false,
+        "countsFinal": false
       },
       {
         "name": "Updated brand guidelines",
@@ -617,7 +703,9 @@
         "personEffort": 1,
         "projectEffort": 98.3,
         "projectHours": 28.1,
-        "efficiency": 29
+        "efficiency": 29,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "CVW-600 brochure update",
@@ -627,7 +715,9 @@
         "personEffort": 0.4,
         "projectEffort": 2.5,
         "projectHours": 5.7,
-        "efficiency": 229
+        "efficiency": 229,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "Business card update*cool.",
@@ -637,7 +727,9 @@
         "personEffort": 0.1,
         "projectEffort": 1.1,
         "projectHours": 0.8,
-        "efficiency": 71
+        "efficiency": 71,
+        "countsCurrent": true,
+        "countsFinal": false
       }
     ],
     "accounts:Camille Hnat": [
@@ -649,7 +741,9 @@
         "personEffort": 49.8,
         "projectEffort": 76.0,
         "projectHours": 80.4,
-        "efficiency": 106
+        "efficiency": 106,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Event video",
@@ -659,7 +753,9 @@
         "personEffort": 15.8,
         "projectEffort": 55.8,
         "projectHours": 86.6,
-        "efficiency": 155
+        "efficiency": 155,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Messaging and one-liner",
@@ -669,7 +765,9 @@
         "personEffort": 24.3,
         "projectEffort": 53.5,
         "projectHours": 34.4,
-        "efficiency": 64
+        "efficiency": 64,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Messaging and one-liner",
@@ -679,7 +777,9 @@
         "personEffort": 27.5,
         "projectEffort": 45.3,
         "projectHours": 29.4,
-        "efficiency": 65
+        "efficiency": 65,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Website home page update",
@@ -689,7 +789,9 @@
         "personEffort": 20,
         "projectEffort": 25.7,
         "projectHours": 23.1,
-        "efficiency": 90
+        "efficiency": 90,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "B+E — 4 side — brochure — PAE",
@@ -699,7 +801,9 @@
         "personEffort": 18,
         "projectEffort": 43.9,
         "projectHours": 41.4,
-        "efficiency": 94
+        "efficiency": 94,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "B+E — 4 side — brochure — UFE",
@@ -709,7 +813,9 @@
         "personEffort": 14.9,
         "projectEffort": 35.4,
         "projectHours": 30.2,
-        "efficiency": 85
+        "efficiency": 85,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Website home page update",
@@ -719,7 +825,9 @@
         "personEffort": 11.8,
         "projectEffort": 15.8,
         "projectHours": 13.0,
-        "efficiency": 82
+        "efficiency": 82,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "DAC — Campaign — Social media — Phase 2",
@@ -729,7 +837,9 @@
         "personEffort": 7,
         "projectEffort": 18,
         "projectHours": 19.2,
-        "efficiency": 107
+        "efficiency": 107,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "MM251112 B2E — Logo refresh",
@@ -739,7 +849,9 @@
         "personEffort": 7.8,
         "projectEffort": 38.2,
         "projectHours": 31.7,
-        "efficiency": 83
+        "efficiency": 83,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "Event programme",
@@ -749,7 +861,9 @@
         "personEffort": 2,
         "projectEffort": 126.6,
         "projectHours": 4.4,
-        "efficiency": 3
+        "efficiency": 3,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "ELEOS — PowerPoint Slides — adding translations",
@@ -759,7 +873,9 @@
         "personEffort": 2.2,
         "projectEffort": 35.2,
         "projectHours": 53.7,
-        "efficiency": 152
+        "efficiency": 152,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "B2E — UFE PAE illustrations",
@@ -769,7 +885,9 @@
         "personEffort": 4.1,
         "projectEffort": 13.6,
         "projectHours": 2.4,
-        "efficiency": 18
+        "efficiency": 18,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "KOL testimonial onsite — 2 day shoot",
@@ -779,7 +897,9 @@
         "personEffort": 25.1,
         "projectEffort": 142.1,
         "projectHours": 2.2,
-        "efficiency": 2
+        "efficiency": 2,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "B+E — New colour palette",
@@ -789,7 +909,9 @@
         "personEffort": 1.5,
         "projectEffort": 7.9,
         "projectHours": 4.3,
-        "efficiency": 55
+        "efficiency": 55,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "B+E — Brand elements",
@@ -799,7 +921,9 @@
         "personEffort": 4.5,
         "projectEffort": 21.6,
         "projectHours": 2.8,
-        "efficiency": 13
+        "efficiency": 13,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "Additional Estimate",
@@ -809,7 +933,9 @@
         "personEffort": 1,
         "projectEffort": 1.1,
         "projectHours": 1.4,
-        "efficiency": 126
+        "efficiency": 126,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "BE Phase 2 — Embo Product Family Catalogue — 60 pg",
@@ -819,7 +945,9 @@
         "personEffort": 16.5,
         "projectEffort": 111,
         "projectHours": 0.7,
-        "efficiency": 1
+        "efficiency": 1,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "B2E — Product inserts",
@@ -829,7 +957,9 @@
         "personEffort": 0.5,
         "projectEffort": 24.8,
         "projectHours": 0.5,
-        "efficiency": 2
+        "efficiency": 2,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "BE Phase 2 — PAE brochure OBL",
@@ -839,7 +969,9 @@
         "personEffort": 3.9,
         "projectEffort": 19.8,
         "projectHours": 0.3,
-        "efficiency": 1
+        "efficiency": 1,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "BE Phase 2 — B2E messaging — OBL",
@@ -849,7 +981,9 @@
         "personEffort": 15.2,
         "projectEffort": 34.8,
         "projectHours": 0.2,
-        "efficiency": 1
+        "efficiency": 1,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "BE Phase 2 — UFE brochure OBL",
@@ -859,7 +993,9 @@
         "personEffort": 3.9,
         "projectEffort": 20.1,
         "projectHours": 0.1,
-        "efficiency": 0
+        "efficiency": 0,
+        "countsCurrent": true,
+        "countsFinal": false
       }
     ],
     "accounts:Lottie Wurr": [
@@ -871,7 +1007,9 @@
         "personEffort": 32.3,
         "projectEffort": 142.7,
         "projectHours": 103.0,
-        "efficiency": 72
+        "efficiency": 72,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Continence Care 101 — Easy generator",
@@ -881,7 +1019,9 @@
         "personEffort": 24,
         "projectEffort": 36.2,
         "projectHours": 28.6,
-        "efficiency": 79
+        "efficiency": 79,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Wellbeing other languages — French",
@@ -891,7 +1031,9 @@
         "personEffort": 20.7,
         "projectEffort": 275.0,
         "projectHours": 401.3,
-        "efficiency": 146
+        "efficiency": 146,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "SNM — 3. Patient Counselling Deck — Powerpoint Slides",
@@ -901,7 +1043,9 @@
         "personEffort": 18.7,
         "projectEffort": 161.3,
         "projectHours": 22.8,
-        "efficiency": 14
+        "efficiency": 14,
+        "countsCurrent": false,
+        "countsFinal": false
       },
       {
         "name": "6 month social media content plan",
@@ -911,7 +1055,9 @@
         "personEffort": 11.3,
         "projectEffort": 42.8,
         "projectHours": 30.5,
-        "efficiency": 71
+        "efficiency": 71,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "2026 — Social media — April",
@@ -921,7 +1067,9 @@
         "personEffort": 7.2,
         "projectEffort": 18.2,
         "projectHours": 16.4,
-        "efficiency": 90
+        "efficiency": 90,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "2026 — Social media — February",
@@ -931,7 +1079,9 @@
         "personEffort": 7.3,
         "projectEffort": 18.3,
         "projectHours": 12.2,
-        "efficiency": 66
+        "efficiency": 66,
+        "countsCurrent": false,
+        "countsFinal": false
       },
       {
         "name": "IFU Video — Exports — Italy",
@@ -941,7 +1091,9 @@
         "personEffort": 9.6,
         "projectEffort": 12.7,
         "projectHours": 9.1,
-        "efficiency": 72
+        "efficiency": 72,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "SNM — 1. Meeting in a Box — Sales Enablement Library",
@@ -951,7 +1103,9 @@
         "personEffort": 5.5,
         "projectEffort": 24.5,
         "projectHours": 23.6,
-        "efficiency": 96
+        "efficiency": 96,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "2026 — Content Plan — Q2 social media content plan",
@@ -961,7 +1115,9 @@
         "personEffort": 5.5,
         "projectEffort": 6.1,
         "projectHours": 5.8,
-        "efficiency": 96
+        "efficiency": 96,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "2026 — Social media — May",
@@ -971,7 +1127,9 @@
         "personEffort": 5.9,
         "projectEffort": 10.1,
         "projectHours": 9.4,
-        "efficiency": 94
+        "efficiency": 94,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Halma Accelerate — 10 slide static (Full projectS)",
@@ -981,7 +1139,9 @@
         "personEffort": 7.5,
         "projectEffort": 109.5,
         "projectHours": 29.2,
-        "efficiency": 27
+        "efficiency": 27,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Sula Podcast",
@@ -991,7 +1151,9 @@
         "personEffort": 1.5,
         "projectEffort": 5,
         "projectHours": 4.6,
-        "efficiency": 92
+        "efficiency": 92,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Choice campaign — Social video resizing",
@@ -1001,7 +1163,9 @@
         "personEffort": 1.2,
         "projectEffort": 5.3,
         "projectHours": 7.3,
-        "efficiency": 137
+        "efficiency": 137,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Events — MedTech World US — Leave pieces — Design only",
@@ -1011,7 +1175,9 @@
         "personEffort": 3.5,
         "projectEffort": 15.3,
         "projectHours": 6.0,
-        "efficiency": 39
+        "efficiency": 39,
+        "countsCurrent": true,
+        "countsFinal": false
       }
     ],
     "accounts:Heidi Li": [
@@ -1023,7 +1189,9 @@
         "personEffort": 55.8,
         "projectEffort": 275.0,
         "projectHours": 401.3,
-        "efficiency": 146
+        "efficiency": 146,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Advisory Board — KOL testimonial onsite — 1 day",
@@ -1033,7 +1201,9 @@
         "personEffort": 29.7,
         "projectEffort": 183.8,
         "projectHours": 142.1,
-        "efficiency": 77
+        "efficiency": 77,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Digital Nurse Call brochure",
@@ -1043,7 +1213,9 @@
         "personEffort": 7,
         "projectEffort": 44.7,
         "projectHours": 42.9,
-        "efficiency": 96
+        "efficiency": 96,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Wired vs Wireless survey",
@@ -1053,7 +1225,9 @@
         "personEffort": 7.8,
         "projectEffort": 18.2,
         "projectHours": 12.7,
-        "efficiency": 69
+        "efficiency": 69,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "BioPince Ultra subtitles",
@@ -1063,7 +1237,9 @@
         "personEffort": 18.3,
         "projectEffort": 52,
         "projectHours": 15.1,
-        "efficiency": 29
+        "efficiency": 29,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Updated brand guidelines",
@@ -1073,7 +1249,9 @@
         "personEffort": 5.3,
         "projectEffort": 98.3,
         "projectHours": 28.1,
-        "efficiency": 29
+        "efficiency": 29,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "CVW-600 brochure update",
@@ -1083,7 +1261,9 @@
         "personEffort": 0.8,
         "projectEffort": 2.5,
         "projectHours": 5.7,
-        "efficiency": 229
+        "efficiency": 229,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "Shell Conference booth design — 3m 2 wall",
@@ -1093,7 +1273,9 @@
         "personEffort": 0.5,
         "projectEffort": 20.9,
         "projectHours": 10.6,
-        "efficiency": 51
+        "efficiency": 51,
+        "countsCurrent": false,
+        "countsFinal": false
       },
       {
         "name": "Business card update*cool.",
@@ -1103,7 +1285,9 @@
         "personEffort": 0.6,
         "projectEffort": 1.1,
         "projectHours": 0.8,
-        "efficiency": 71
+        "efficiency": 71,
+        "countsCurrent": true,
+        "countsFinal": false
       }
     ],
     "accounts:Katharine O'Brien": [
@@ -1115,7 +1299,9 @@
         "personEffort": 27,
         "projectEffort": 275.0,
         "projectHours": 401.3,
-        "efficiency": 146
+        "efficiency": 146,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "ELEOS — PowerPoint Slides — adding translations",
@@ -1125,7 +1311,9 @@
         "personEffort": 24.8,
         "projectEffort": 35.2,
         "projectHours": 53.7,
-        "efficiency": 152
+        "efficiency": 152,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "SNM — 1. Meeting in a Box — Sales Enablement Library",
@@ -1135,7 +1323,9 @@
         "personEffort": 18,
         "projectEffort": 24.5,
         "projectHours": 23.6,
-        "efficiency": 96
+        "efficiency": 96,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "DNC — PPT changes",
@@ -1145,7 +1335,9 @@
         "personEffort": 4,
         "projectEffort": 15.8,
         "projectHours": 23.9,
-        "efficiency": 151
+        "efficiency": 151,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Wired vs Wireless survey",
@@ -1155,7 +1347,9 @@
         "personEffort": 5.5,
         "projectEffort": 18.2,
         "projectHours": 12.7,
-        "efficiency": 69
+        "efficiency": 69,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "2026 — Social media — April",
@@ -1165,7 +1359,9 @@
         "personEffort": 1.8,
         "projectEffort": 18.2,
         "projectHours": 16.4,
-        "efficiency": 90
+        "efficiency": 90,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "2026 — Social media — February",
@@ -1175,7 +1371,9 @@
         "personEffort": 1.5,
         "projectEffort": 18.3,
         "projectHours": 12.2,
-        "efficiency": 66
+        "efficiency": 66,
+        "countsCurrent": false,
+        "countsFinal": false
       }
     ],
     "accounts:Liz Lindsay": [
@@ -1187,7 +1385,9 @@
         "personEffort": 2.5,
         "projectEffort": 109.5,
         "projectHours": 29.2,
-        "efficiency": 27
+        "efficiency": 27,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Digital Nurse Call brochure",
@@ -1197,7 +1397,9 @@
         "personEffort": 1.2,
         "projectEffort": 44.7,
         "projectHours": 42.9,
-        "efficiency": 96
+        "efficiency": 96,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Campaign Example",
@@ -1207,7 +1409,9 @@
         "personEffort": 2.8,
         "projectEffort": 80,
         "projectHours": 8.1,
-        "efficiency": 10
+        "efficiency": 10,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Sales Manger — Business Cards",
@@ -1217,7 +1421,9 @@
         "personEffort": 0.1,
         "projectEffort": 0.6,
         "projectHours": 0.1,
-        "efficiency": 14
+        "efficiency": 14,
+        "countsCurrent": true,
+        "countsFinal": false
       }
     ],
     "design:Chris Ribbens": [
@@ -1229,7 +1435,9 @@
         "personEffort": 12.2,
         "projectEffort": 55.8,
         "projectHours": 86.6,
-        "efficiency": 155
+        "efficiency": 155,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Updated brand guidelines",
@@ -1239,7 +1447,9 @@
         "personEffort": 69,
         "projectEffort": 98.3,
         "projectHours": 28.1,
-        "efficiency": 29
+        "efficiency": 29,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "MM251112 B2E — Logo refresh",
@@ -1249,7 +1459,9 @@
         "personEffort": 24.6,
         "projectEffort": 38.2,
         "projectHours": 31.7,
-        "efficiency": 83
+        "efficiency": 83,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "Wellbeing other languages — French",
@@ -1259,7 +1471,9 @@
         "personEffort": 9.5,
         "projectEffort": 275.0,
         "projectHours": 401.3,
-        "efficiency": 146
+        "efficiency": 146,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Digital Nurse Call brochure",
@@ -1269,7 +1483,9 @@
         "personEffort": 14,
         "projectEffort": 44.7,
         "projectHours": 42.9,
-        "efficiency": 96
+        "efficiency": 96,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "B+E — 4 side — brochure — UFE",
@@ -1279,7 +1495,9 @@
         "personEffort": 16.2,
         "projectEffort": 35.4,
         "projectHours": 30.2,
-        "efficiency": 85
+        "efficiency": 85,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "B+E — 4 side — brochure — PAE",
@@ -1289,7 +1507,9 @@
         "personEffort": 15.2,
         "projectEffort": 43.9,
         "projectHours": 41.4,
-        "efficiency": 94
+        "efficiency": 94,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "6 month social media content plan",
@@ -1299,7 +1519,9 @@
         "personEffort": 9.1,
         "projectEffort": 42.8,
         "projectHours": 30.5,
-        "efficiency": 71
+        "efficiency": 71,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "Halma Accelerate Posters — Poster",
@@ -1309,7 +1531,9 @@
         "personEffort": 5.3,
         "projectEffort": 20.1,
         "projectHours": 21.7,
-        "efficiency": 108
+        "efficiency": 108,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "SNM — 3. Patient Counselling Deck — Powerpoint Slides",
@@ -1319,7 +1543,9 @@
         "personEffort": 27.3,
         "projectEffort": 161.3,
         "projectHours": 22.8,
-        "efficiency": 14
+        "efficiency": 14,
+        "countsCurrent": false,
+        "countsFinal": false
       },
       {
         "name": "Halma Accelerate — 10 slide static (Full projectS)",
@@ -1329,7 +1555,9 @@
         "personEffort": 12.2,
         "projectEffort": 109.5,
         "projectHours": 29.2,
-        "efficiency": 27
+        "efficiency": 27,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Shell Conference booth design — 3m 2 wall",
@@ -1339,7 +1567,9 @@
         "personEffort": 14.2,
         "projectEffort": 20.9,
         "projectHours": 10.6,
-        "efficiency": 51
+        "efficiency": 51,
+        "countsCurrent": false,
+        "countsFinal": false
       },
       {
         "name": "Campaign Example",
@@ -1349,7 +1579,9 @@
         "personEffort": 18,
         "projectEffort": 80,
         "projectHours": 8.1,
-        "efficiency": 10
+        "efficiency": 10,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "B+E — New colour palette",
@@ -1359,7 +1591,9 @@
         "personEffort": 5.5,
         "projectEffort": 7.9,
         "projectHours": 4.3,
-        "efficiency": 55
+        "efficiency": 55,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "Wired vs Wireless survey",
@@ -1369,7 +1603,9 @@
         "personEffort": 2,
         "projectEffort": 18.2,
         "projectHours": 12.7,
-        "efficiency": 69
+        "efficiency": 69,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "B+E — Brand elements",
@@ -1379,7 +1615,9 @@
         "personEffort": 12.5,
         "projectEffort": 21.6,
         "projectHours": 2.8,
-        "efficiency": 13
+        "efficiency": 13,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "CVW-600 brochure update",
@@ -1389,7 +1627,9 @@
         "personEffort": 0.8,
         "projectEffort": 2.5,
         "projectHours": 5.7,
-        "efficiency": 229
+        "efficiency": 229,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "Business card update*cool.",
@@ -1399,7 +1639,9 @@
         "personEffort": 0.3,
         "projectEffort": 1.1,
         "projectHours": 0.8,
-        "efficiency": 71
+        "efficiency": 71,
+        "countsCurrent": true,
+        "countsFinal": false
       }
     ],
     "design:Abby Roberts": [
@@ -1411,7 +1653,9 @@
         "personEffort": 14.2,
         "projectEffort": 183.8,
         "projectHours": 142.1,
-        "efficiency": 77
+        "efficiency": 77,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Halma Accelerate — 10 slide static (Full projectS)",
@@ -1421,7 +1665,9 @@
         "personEffort": 11.4,
         "projectEffort": 109.5,
         "projectHours": 29.2,
-        "efficiency": 27
+        "efficiency": 27,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "6 month social media content plan",
@@ -1431,7 +1677,9 @@
         "personEffort": 8,
         "projectEffort": 42.8,
         "projectHours": 30.5,
-        "efficiency": 71
+        "efficiency": 71,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "DNC — PPT changes",
@@ -1441,7 +1689,9 @@
         "personEffort": 5.7,
         "projectEffort": 15.8,
         "projectHours": 23.9,
-        "efficiency": 151
+        "efficiency": 151,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "DAC — Campaign — Social media — Phase 2",
@@ -1451,7 +1701,9 @@
         "personEffort": 6,
         "projectEffort": 18,
         "projectHours": 19.2,
-        "efficiency": 107
+        "efficiency": 107,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "B+E — 4 side — brochure — PAE",
@@ -1461,7 +1713,9 @@
         "personEffort": 4,
         "projectEffort": 43.9,
         "projectHours": 41.4,
-        "efficiency": 94
+        "efficiency": 94,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Halma Accelerate Posters — Poster",
@@ -1471,7 +1725,9 @@
         "personEffort": 5.2,
         "projectEffort": 20.1,
         "projectHours": 21.7,
-        "efficiency": 108
+        "efficiency": 108,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "Digital Nurse Call brochure",
@@ -1481,7 +1737,9 @@
         "personEffort": 1.8,
         "projectEffort": 44.7,
         "projectHours": 42.9,
-        "efficiency": 96
+        "efficiency": 96,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "2026 — Social media — April",
@@ -1491,7 +1749,9 @@
         "personEffort": 3.5,
         "projectEffort": 18.2,
         "projectHours": 16.4,
-        "efficiency": 90
+        "efficiency": 90,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "2026 — Social media — February",
@@ -1501,7 +1761,9 @@
         "personEffort": 3,
         "projectEffort": 18.3,
         "projectHours": 12.2,
-        "efficiency": 66
+        "efficiency": 66,
+        "countsCurrent": false,
+        "countsFinal": false
       },
       {
         "name": "Sula Podcast",
@@ -1511,7 +1773,9 @@
         "personEffort": 0.6,
         "projectEffort": 5,
         "projectHours": 4.6,
-        "efficiency": 92
+        "efficiency": 92,
+        "countsCurrent": true,
+        "countsFinal": false
       }
     ],
     "design:Jagjot Golhar": [
@@ -1523,7 +1787,9 @@
         "personEffort": 4,
         "projectEffort": 142.7,
         "projectHours": 103.0,
-        "efficiency": 72
+        "efficiency": 72,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Messaging and one-liner",
@@ -1533,7 +1799,9 @@
         "personEffort": 7.7,
         "projectEffort": 76.0,
         "projectHours": 80.4,
-        "efficiency": 106
+        "efficiency": 106,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Digital Nurse Call brochure",
@@ -1543,7 +1811,9 @@
         "personEffort": 3.5,
         "projectEffort": 44.7,
         "projectHours": 42.9,
-        "efficiency": 96
+        "efficiency": 96,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "DNC — PPT changes",
@@ -1553,7 +1823,9 @@
         "personEffort": 2.7,
         "projectEffort": 15.8,
         "projectHours": 23.9,
-        "efficiency": 151
+        "efficiency": 151,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Messaging and one-liner",
@@ -1563,7 +1835,9 @@
         "personEffort": 4,
         "projectEffort": 39.2,
         "projectHours": 31.6,
-        "efficiency": 81
+        "efficiency": 81,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Messaging and one-liner",
@@ -1573,7 +1847,9 @@
         "personEffort": 4,
         "projectEffort": 45.3,
         "projectHours": 29.4,
-        "efficiency": 65
+        "efficiency": 65,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "2026 — Social media — May",
@@ -1583,7 +1859,9 @@
         "personEffort": 3.5,
         "projectEffort": 10.1,
         "projectHours": 9.4,
-        "efficiency": 94
+        "efficiency": 94,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "CVW-600 brochure update",
@@ -1593,7 +1871,9 @@
         "personEffort": 0.5,
         "projectEffort": 2.5,
         "projectHours": 5.7,
-        "efficiency": 229
+        "efficiency": 229,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "Halma Accelerate Posters — Poster",
@@ -1603,7 +1883,9 @@
         "personEffort": 1.5,
         "projectEffort": 20.1,
         "projectHours": 21.7,
-        "efficiency": 108
+        "efficiency": 108,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "DAC — Campaign — Social media — Phase 2",
@@ -1613,7 +1895,9 @@
         "personEffort": 2.5,
         "projectEffort": 18,
         "projectHours": 19.2,
-        "efficiency": 107
+        "efficiency": 107,
+        "countsCurrent": true,
+        "countsFinal": true
       },
       {
         "name": "Sula Podcast",
@@ -1623,7 +1907,9 @@
         "personEffort": 0.4,
         "projectEffort": 5,
         "projectHours": 4.6,
-        "efficiency": 92
+        "efficiency": 92,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Messaging and one-liner",
@@ -1633,7 +1919,9 @@
         "personEffort": 5,
         "projectEffort": 53.5,
         "projectHours": 34.4,
-        "efficiency": 64
+        "efficiency": 64,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "IFU Video — Exports — Italy",
@@ -1643,7 +1931,9 @@
         "personEffort": 1.5,
         "projectEffort": 12.7,
         "projectHours": 9.1,
-        "efficiency": 72
+        "efficiency": 72,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "2026 — Social media — April",
@@ -1653,7 +1943,9 @@
         "personEffort": 1,
         "projectEffort": 18.2,
         "projectHours": 16.4,
-        "efficiency": 90
+        "efficiency": 90,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Wired vs Wireless survey",
@@ -1663,7 +1955,9 @@
         "personEffort": 1,
         "projectEffort": 18.2,
         "projectHours": 12.7,
-        "efficiency": 69
+        "efficiency": 69,
+        "countsCurrent": true,
+        "countsFinal": true
       }
     ],
     "video:Ben Brewer": [
@@ -1675,7 +1969,9 @@
         "personEffort": 109,
         "projectEffort": 275.0,
         "projectHours": 401.3,
-        "efficiency": 146
+        "efficiency": 146,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Social media 6 months — Filmed content",
@@ -1685,7 +1981,9 @@
         "personEffort": 35.2,
         "projectEffort": 142.7,
         "projectHours": 103.0,
-        "efficiency": 72
+        "efficiency": 72,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Events — MedTech World US — Leave pieces — Design only",
@@ -1695,7 +1993,9 @@
         "personEffort": 9.5,
         "projectEffort": 15.3,
         "projectHours": 6.0,
-        "efficiency": 39
+        "efficiency": 39,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "2026 — Social media — April",
@@ -1705,7 +2005,9 @@
         "personEffort": 2.6,
         "projectEffort": 18.2,
         "projectHours": 16.4,
-        "efficiency": 90
+        "efficiency": 90,
+        "countsCurrent": true,
+        "countsFinal": false
       }
     ],
     "video:Ellis Norton": [
@@ -1717,7 +2019,9 @@
         "personEffort": 56.7,
         "projectEffort": 183.8,
         "projectHours": 142.1,
-        "efficiency": 77
+        "efficiency": 77,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Social media 6 months — Filmed content",
@@ -1727,7 +2031,9 @@
         "personEffort": 24.5,
         "projectEffort": 142.7,
         "projectHours": 103.0,
-        "efficiency": 72
+        "efficiency": 72,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Event video",
@@ -1737,7 +2043,9 @@
         "personEffort": 18,
         "projectEffort": 55.8,
         "projectHours": 86.6,
-        "efficiency": 155
+        "efficiency": 155,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Belfast — Video Editing",
@@ -1747,7 +2055,9 @@
         "personEffort": 5,
         "projectEffort": 40,
         "projectHours": 7.3,
-        "efficiency": 18
+        "efficiency": 18,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "BioPince Ultra subtitles",
@@ -1757,7 +2067,9 @@
         "personEffort": 12.5,
         "projectEffort": 52,
         "projectHours": 15.1,
-        "efficiency": 29
+        "efficiency": 29,
+        "countsCurrent": true,
+        "countsFinal": false
       },
       {
         "name": "Choice campaign — Social video resizing",
@@ -1767,7 +2079,9 @@
         "personEffort": 3.4,
         "projectEffort": 5.3,
         "projectHours": 7.3,
-        "efficiency": 137
+        "efficiency": 137,
+        "countsCurrent": true,
+        "countsFinal": false
       }
     ]
   }
