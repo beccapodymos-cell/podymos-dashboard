@@ -299,6 +299,28 @@ button{font-family:inherit}
 .dept-hero-blurb{font-size:13px;color:var(--muted-strong);line-height:1.6}
 .dept-hero-blurb strong{color:var(--white);font-weight:600}
 .dept-hero-na{font-size:28px;font-weight:300;color:var(--muted);font-style:italic;line-height:1.4}
+
+/* ===== Team Leads view ===== */
+.leads-group{margin-bottom:48px;animation:fadeUp 0.5s ease both}
+.leads-group:last-child{margin-bottom:0}
+.lead-hero{background:var(--white);border:1px solid var(--cream-border);border-radius:16px;padding:32px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;margin-bottom:20px;position:relative;overflow:hidden;box-shadow:0 1px 2px rgba(28,16,36,0.04),0 4px 12px rgba(28,16,36,0.04)}
+.lead-hero::after{content:"";position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--bar-color,var(--accent-teal))}
+@media(max-width:620px){.lead-hero{grid-template-columns:1fr;gap:14px}}
+.lead-info{display:flex;align-items:center;gap:20px}
+.lead-avatar{width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,var(--accent-orange),var(--accent-coral));display:flex;align-items:center;justify-content:center;font-weight:600;font-size:22px;color:var(--dark-purple);flex-shrink:0}
+.lead-meta{min-width:0}
+.lead-name{font-size:22px;font-weight:300;letter-spacing:-0.01em;line-height:1.1;color:var(--ink)}
+.lead-name strong{font-weight:600}
+.lead-role{font-size:12px;color:var(--ink-muted);text-transform:uppercase;letter-spacing:0.06em;font-weight:600;margin-top:4px}
+.lead-team-count{font-size:12px;color:var(--ink-muted);margin-top:6px}
+.lead-score-block{text-align:right}
+@media(max-width:620px){.lead-score-block{text-align:left}}
+.lead-score-label{font-size:11px;color:var(--ink-muted);text-transform:uppercase;letter-spacing:0.08em;font-weight:600;margin-bottom:6px}
+.lead-score-num{font-size:54px;font-weight:600;line-height:1;letter-spacing:-0.02em;color:var(--ink)}
+.lead-score-num .pct{font-size:22px;font-weight:300;color:var(--ink-muted);margin-left:2px}
+.lead-score-na{font-size:22px;font-weight:300;color:var(--ink-muted);font-style:italic}
+.lead-people{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;padding-left:20px;border-left:2px solid var(--cream-border);margin-left:12px}
+@media(max-width:620px){.lead-people{padding-left:0;border-left:none;margin-left:0}}
 </style>
 </head>
 <body>
@@ -326,6 +348,7 @@ button{font-family:inherit}
     <button class="tab" role="tab" aria-selected="false" data-tab="accounts">Accounts</button>
     <button class="tab" role="tab" aria-selected="false" data-tab="design">Design</button>
     <button class="tab" role="tab" aria-selected="false" data-tab="video">Video</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="leads">Team Leads</button>
   </div>
 
   </div><!-- /page-inner -->
@@ -550,6 +573,41 @@ button{font-family:inherit}
   </div>
 
 
+  <!-- ========== TEAM LEADS VIEW ========== -->
+  <div class="view hidden" id="view-leads">
+    <section class="stripe stripe-dark">
+      <div class="stripe-inner">
+        <div class="section-head">
+          <div class="section-num">01</div>
+          <div class="section-title-wrap">
+            <span class="eyebrow">Leadership performance</span>
+            <div class="section-title">Team <strong>leads</strong>
+              <span class="help-wrap">
+                <button class="help-btn" type="button" data-help="leads-intro" aria-label="Help">?</button>
+                <div class="help-tip" id="tip-leads-intro">Each card shows a lead and their direct reports. The big number is the <strong>simple average</strong> of everyone in the group (the lead plus their team). Tap anyone to open their project list.</div>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="view-toggle" role="tablist" aria-label="Score view">
+            <button class="on" data-tab-toggle="leads" data-view-kind="current" role="tab" aria-selected="true">Current</button>
+            <button data-tab-toggle="leads" data-view-kind="final" role="tab" aria-selected="false">Final</button>
+          </div>
+          <span class="view-help" id="view-help-leads">All active projects · live moving picture</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="stripe stripe-light">
+      <div class="stripe-inner">
+        <div id="leads-groups"></div>
+      </div>
+    </section>
+  </div>
+
+
   <section class="stripe stripe-dark" style="padding:32px 0">
     <div class="stripe-inner">
       <div class="footer">
@@ -590,14 +648,22 @@ button{font-family:inherit}
 <script>
 /* ===== Data + state ===== */
 let DATA = null;
-let ACTIVE_TAB = 'company';                 // 'company' | 'accounts' | 'design' | 'video'
+let ACTIVE_TAB = 'company';                 // 'company' | 'accounts' | 'design' | 'video' | 'leads'
 const VIEWS = {                             // per-tab current/final toggle state
   company: 'current',
   accounts: 'current',
   design: 'current',
-  video: 'current'
+  video: 'current',
+  leads: 'current'
 };
 let activeDept = 'accounts';                // kept for dept tabs state
+
+// Team lead → reports mapping
+const LEAD_GROUPS = [
+  { leadName: 'Becca Brady',    members: ['Liz Lindsay', "Katharine O'Brien", 'Camille Hnat', 'Lottie Wurr'] },
+  { leadName: 'Hannah Shepley', members: ['Heidi Li'] },
+  { leadName: 'Chris Ribbens',  members: ['Ben Brewer', 'Ellis Norton', 'Jagjot Golhar', 'Abby Roberts'] },
+];
 
 const $ = id => document.getElementById(id);
 
@@ -650,6 +716,7 @@ function render() {
   renderDeptTab('accounts');
   renderDeptTab('design');
   renderDeptTab('video');
+  renderLeadsTab();
 }
 
 /* ===== Company tab (hero + dept tiles + all-team grid) ===== */
@@ -834,6 +901,127 @@ function renderAllPeople(wrap, view) {
   });
 }
 
+/* ===== Helper: find a person and their dept anywhere in the data ===== */
+function findPerson(name) {
+  for (const d of DATA.departments) {
+    const p = d.people.find(x => x.name === name);
+    if (p) return { person: p, dept: d };
+  }
+  return null;
+}
+
+/* ===== Team Leads tab ===== */
+function renderLeadsTab() {
+  const view = VIEWS.leads;
+  const wrap = $('leads-groups');
+  if (!wrap) return;
+  wrap.innerHTML = '';
+
+  // Colours per lead (use the dept colour of their primary dept)
+  const leadColors = {
+    'Becca Brady':    'var(--dept-accounts)',
+    'Hannah Shepley': 'var(--dept-accounts)',
+    'Chris Ribbens':  'var(--dept-design)'
+  };
+
+  LEAD_GROUPS.forEach((group, groupIdx) => {
+    const leadLookup = findPerson(group.leadName);
+    if (!leadLookup) return;
+    const { person: lead, dept: leadDept } = leadLookup;
+
+    // Gather all group members (lead + their direct reports)
+    const memberLookups = group.members.map(findPerson).filter(Boolean);
+    const allInGroup = [{ person: lead, dept: leadDept }, ...memberLookups];
+
+    // Simple average (nulls excluded)
+    const scores = allInGroup
+      .map(x => view === 'current' ? x.person.current : x.person.final)
+      .filter(s => s != null);
+    const avg = scores.length ? Math.round(scores.reduce((a,b) => a+b, 0) / scores.length) : null;
+
+    const totalPeople = allInGroup.length;
+    const scoredCount = scores.length;
+
+    // Build group card
+    const groupEl = document.createElement('div');
+    groupEl.className = 'leads-group';
+    groupEl.style.animationDelay = (groupIdx * 0.08) + 's';
+    const color = leadColors[group.leadName] || 'var(--accent-teal)';
+
+    const scoreHTML = avg == null
+      ? `<div class="lead-score-na">No completed work</div>`
+      : `<div class="lead-score-num ${scoreClass(avg)}">${avg}<span class="pct">%</span></div>`;
+
+    groupEl.innerHTML = `
+      <div class="lead-hero" style="--bar-color: ${color}">
+        <div class="lead-info">
+          <div class="lead-avatar">${initials(lead.name)}</div>
+          <div class="lead-meta">
+            <div class="lead-name">${lead.name.split(/\s+/).slice(0,-1).join(' ')} <strong>${lead.name.split(/\s+/).slice(-1)[0]}</strong></div>
+            <div class="lead-role">${lead.role}</div>
+            <div class="lead-team-count">Group of ${totalPeople}${scoredCount < totalPeople ? ` · ${scoredCount} scored` : ''}</div>
+          </div>
+        </div>
+        <div class="lead-score-block">
+          <div class="lead-score-label">Group ${view === 'current' ? 'current' : 'final'} avg</div>
+          ${scoreHTML}
+        </div>
+      </div>
+      <div class="lead-people"></div>
+    `;
+
+    // Append team member cards (lead first, then their reports)
+    const peopleWrap = groupEl.querySelector('.lead-people');
+    allInGroup.forEach((item, i) => {
+      const p = item.person, d = item.dept;
+      const score = view === 'current' ? p.current : p.final;
+      const projects = view === 'current' ? p.currentProjects : p.finalProjects;
+      const deptColor = {
+        accounts: 'var(--dept-accounts)',
+        design: 'var(--dept-design)',
+        video: 'var(--dept-video)'
+      }[d.id] || 'var(--accent-teal)';
+      const card = document.createElement('div');
+      card.className = 'person';
+      card.style.setProperty('--dept-color', deptColor);
+      card.style.animationDelay = (i * 0.03) + 's';
+      const leadBadge = (i === 0) ? ' <span style="font-size:10px;color:var(--ink-muted);text-transform:uppercase;letter-spacing:0.06em;font-weight:600">Lead</span>' : '';
+      card.innerHTML = `
+        <div class="person-top">
+          <div class="avatar">${initials(p.name)}</div>
+          <div class="person-name-wrap">
+            <div class="person-name">${p.name}${leadBadge}</div>
+            <div class="person-role">${p.role}</div>
+          </div>
+        </div>
+        ${score == null
+          ? `<div class="person-na">No completed work yet</div>
+             <div class="person-projects">${projects || 0} completed projects</div>`
+          : `<div class="person-score ${scoreClass(score)}">${fmtPct(score)}<span class="pct">%</span></div>
+             <div class="person-projects">${projects || 0} ${view === 'current' ? 'active' : 'completed'} projects</div>`}
+      `;
+      card.onclick = () => openPanel(d, p, view);
+      peopleWrap.appendChild(card);
+    });
+
+    wrap.appendChild(groupEl);
+  });
+
+  // Update toggle buttons for leads tab
+  const toggles = document.querySelectorAll('[data-tab-toggle="leads"]');
+  toggles.forEach(btn => {
+    const isOn = btn.getAttribute('data-view-kind') === view;
+    btn.classList.toggle('on', isOn);
+    btn.setAttribute('aria-selected', isOn);
+  });
+  const help = $('view-help-leads');
+  if (help) {
+    help.textContent = view === 'current'
+      ? 'All active projects · live moving picture'
+      : 'Completed projects only · stable historical view';
+  }
+}
+
 /* ===== Slide-out panel ===== */
 function openPanel(dept, person, activeView) {
   activeView = activeView || 'current';
@@ -925,7 +1113,8 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel()
 
 /* ===== Top-tab switching ===== */
 function switchTab(tabId) {
-  if (!['company','accounts','design','video'].includes(tabId)) return;
+  const validTabs = ['company','accounts','design','video','leads'];
+  if (!validTabs.includes(tabId)) return;
   ACTIVE_TAB = tabId;
   // Update tab buttons
   document.querySelectorAll('.tab').forEach(btn => {
@@ -934,12 +1123,14 @@ function switchTab(tabId) {
     btn.setAttribute('aria-selected', on);
   });
   // Show the right view, hide the rest
-  ['company','accounts','design','video'].forEach(id => {
+  validTabs.forEach(id => {
     $('view-' + id).classList.toggle('hidden', id !== tabId);
   });
   // Re-render the newly-visible view
   if (tabId === 'company') {
     renderCompanyTab();
+  } else if (tabId === 'leads') {
+    renderLeadsTab();
   } else {
     renderDeptTab(tabId);
   }
@@ -957,14 +1148,18 @@ function setCompanyView(v) {
 $('toggle-current').onclick = () => setCompanyView('current');
 $('toggle-final').onclick = () => setCompanyView('final');
 
-/* ===== Toggle (Current / Final) — dept tabs ===== */
+/* ===== Toggle (Current / Final) — dept tabs + leads ===== */
 document.querySelectorAll('[data-tab-toggle]').forEach(btn => {
   btn.addEventListener('click', () => {
-    const deptId = btn.getAttribute('data-tab-toggle');
+    const tabId = btn.getAttribute('data-tab-toggle');
     const kind = btn.getAttribute('data-view-kind');
-    VIEWS[deptId] = kind;
+    VIEWS[tabId] = kind;
     closePanel();  // close any open person panel so the view stays consistent
-    renderDeptTab(deptId);
+    if (tabId === 'leads') {
+      renderLeadsTab();
+    } else {
+      renderDeptTab(tabId);
+    }
   });
 });
 
