@@ -4,10 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Podymos — Performance Dashboard</title>
+<link rel="icon" type="image/png" href="https://podymos.com/favicon.ico">
+<link rel="shortcut icon" href="https://podymos.com/favicon.ico">
+<link rel="apple-touch-icon" href="https://podymos.com/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
 :root{
   --dark-purple:#1C1024;
@@ -198,7 +200,6 @@ button{font-family:inherit}
 .dept-tile:nth-child(2){animation-delay:0.15s}
 .dept-tile:nth-child(3){animation-delay:0.2s}
 .dept-tile:nth-child(4){animation-delay:0.25s}
-.dept-tile:hover{transform:translateY(-2px);border-color:rgba(255,255,255,0.2)}
 .dept-tile.active{border-color:var(--accent-orange);box-shadow:0 0 0 1px var(--accent-orange)}
 .dept-tile::after{content:"";position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--bar-color,var(--accent-teal))}
 .dept-tile[data-id="accounts"]{--bar-color:var(--dept-accounts)}
@@ -333,60 +334,12 @@ button{font-family:inherit}
   <!-- ========== COMPANY VIEW ========== -->
   <div class="view" id="view-company">
 
-  <!-- Revenue stripe (dark) -->
-  <section class="stripe stripe-dark">
-    <div class="stripe-inner">
-      <div class="section-head">
-        <div class="section-num">01</div>
-        <div class="section-title-wrap">
-          <span class="eyebrow">Headline numbers</span>
-          <div class="section-title">Revenue <strong>this year</strong>
-            <span class="help-wrap">
-              <button class="help-btn" type="button" data-help="revenue" aria-label="Help">?</button>
-              <div class="help-tip" id="tip-revenue">Tracks the value of signed-off projects invoiced this financial year. Bars show the monthly run rate; the dashed line is the monthly goal needed to hit the annual target of £500k.</div>
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <div class="revenue-row">
-        <div class="card">
-          <div class="rev-label">Year to date</div>
-          <div class="rev-big"><span class="currency">£</span><span id="rev-current">—</span></div>
-          <div class="rev-sub">Financial year starting 1 April</div>
-          <div class="rev-last">
-            <div>
-              <div class="rev-last-label">Last month</div>
-              <div class="rev-last-val"><span>£</span><span id="rev-last">—</span></div>
-            </div>
-            <div class="delta up" id="rev-delta">—</div>
-          </div>
-          <div class="goal-label">
-            <span>Toward goal</span>
-            <span id="rev-goal-label">— of £—</span>
-          </div>
-          <div class="goal-bar"><div class="goal-bar-fill" id="rev-goal-bar" style="width:0%"></div></div>
-        </div>
-
-        <div class="chart-card">
-          <div class="chart-head">
-            <div class="chart-title">Monthly revenue vs goal</div>
-            <div class="chart-legend">
-              <span><i style="background:#E58D28"></i>Revenue</span>
-              <span><i style="background:#FF6359"></i>Goal</span>
-            </div>
-          </div>
-          <div class="chart-box"><canvas id="rev-chart"></canvas></div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Efficiency stripe (light cream) -->
   <section class="stripe stripe-light">
     <div class="stripe-inner">
       <div class="section-head">
-        <div class="section-num">02</div>
+        <div class="section-num">01</div>
         <div class="section-title-wrap">
           <span class="eyebrow">How we're performing</span>
           <div class="section-title">Project <strong>efficiency</strong>
@@ -436,7 +389,15 @@ button{font-family:inherit}
 
       <!-- People (all departments) -->
       <div class="people-head">
-        <div class="people-title">Team in <span class="dept-chip" id="active-dept-name">Accounts</span></div>
+        <span class="eyebrow">The team</span>
+        <div class="people-title-row">
+          <div class="people-title">The whole <strong>team</strong>
+            <span class="help-wrap">
+              <button class="help-btn" type="button" data-help="team-company" aria-label="Help">?</button>
+              <div class="help-tip" id="tip-team-company">Every person across Accounts, Design and Video in one list. The coloured bar at the bottom of each card shows which department they're in. Tap any person for their project detail.</div>
+            </span>
+          </div>
+        </div>
       </div>
       <div class="people" id="people"></div>
     </div>
@@ -636,8 +597,7 @@ const VIEWS = {                             // per-tab current/final toggle stat
   design: 'current',
   video: 'current'
 };
-let activeDept = 'accounts';                // for the Company-tab people breakdown
-let revChart = null;
+let activeDept = 'accounts';                // kept for dept tabs state
 
 const $ = id => document.getElementById(id);
 
@@ -686,69 +646,13 @@ async function load() {
 function render() {
   $('quarter-badge').textContent = `${DATA.quarter} · FY${DATA.fy}`;
   $('updated-label').textContent = 'Updated ' + fmtDate(DATA.updated);
-  renderRevenue();
   renderCompanyTab();
   renderDeptTab('accounts');
   renderDeptTab('design');
   renderDeptTab('video');
 }
 
-/* ===== Revenue ===== */
-function renderRevenue() {
-  const r = DATA.revenue;
-  $('rev-current').textContent = fmtMoney(r.current);
-  $('rev-last').textContent = fmtMoney(r.lastMonth);
-  const delta = $('rev-delta');
-  const pct = Math.round((r.lastMonthDelta || 0) * 100);
-  delta.textContent = (pct >= 0 ? '+' : '') + pct + '% vs prev';
-  delta.className = 'delta ' + (pct >= 0 ? 'up' : 'down');
-  const pctOfGoal = r.goal ? Math.min(100, (r.current / r.goal) * 100) : 0;
-  $('rev-goal-label').textContent = `£${fmtMoney(r.current)} of £${fmtMoney(r.goal)}`;
-  requestAnimationFrame(() => { $('rev-goal-bar').style.width = pctOfGoal + '%'; });
-
-  const ctx = $('rev-chart').getContext('2d');
-  if (revChart) revChart.destroy();
-  revChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels: r.series.map(s => s.label),
-      datasets: [{
-        label: 'Revenue',
-        data: r.series.map(s => s.revenue),
-        backgroundColor: '#E58D28',
-        borderRadius: 6,
-        barPercentage: 0.65,
-        categoryPercentage: 0.7
-      }, {
-        type: 'line',
-        label: 'Goal',
-        data: r.series.map(s => s.goal),
-        borderColor: '#FF6359',
-        borderDash: [6, 4],
-        borderWidth: 2,
-        pointRadius: 0,
-        tension: 0,
-        fill: false
-      }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { display: false }, tooltip: {
-        backgroundColor: '#1C1024', borderColor: 'rgba(255,255,255,0.1)', borderWidth: 1,
-        padding: 12, callbacks: { label: c => '£' + fmtMoney(c.parsed.y) }
-      } },
-      scales: {
-        y: { grid: { color: 'rgba(255,255,255,0.05)' }, border: { display: false },
-             ticks: { color: 'rgba(255,255,255,0.5)', font: { family: 'Open Sans', size: 11 },
-                      callback: v => '£' + (v / 1000) + 'k' } },
-        x: { grid: { display: false }, border: { display: false },
-             ticks: { color: 'rgba(255,255,255,0.5)', font: { family: 'Open Sans', size: 11 } } }
-      }
-    }
-  });
-}
-
-/* ===== Company tab (hero + dept tiles + people) ===== */
+/* ===== Company tab (hero + dept tiles + all-team grid) ===== */
 function renderCompanyTab() {
   const view = VIEWS.company;
   const c = DATA.company;
@@ -764,15 +668,16 @@ function renderCompanyTab() {
   }
   $('company-meta').textContent = `${proj || 0} projects · ${view === 'current' ? 'all active' : 'completed in quarter'}`;
 
-  // Department tiles
+  // Department tiles (display-only, no longer filter the team grid)
   const tilesWrap = $('depts');
   tilesWrap.innerHTML = '';
   DATA.departments.forEach(d => {
     const deptScore = view === 'current' ? d.current : d.final;
     const deptInstances = view === 'current' ? d.currentInstances : d.finalInstances;
     const tile = document.createElement('div');
-    tile.className = 'dept-tile' + (d.id === activeDept ? ' active' : '');
+    tile.className = 'dept-tile';
     tile.setAttribute('data-id', d.id);
+    tile.style.cursor = 'default';
     tile.innerHTML = `
       <div class="dept-name">${d.name}</div>
       ${deptScore == null
@@ -780,14 +685,11 @@ function renderCompanyTab() {
         : `<div class="dept-score ${scoreClass(deptScore)}">${fmtPct(deptScore)}<span class="pct">%</span></div>
            <div class="dept-meta">${deptInstances || 0} ${view === 'current' ? 'active' : 'completed'} contributions</div>`}
     `;
-    tile.onclick = () => { activeDept = d.id; renderCompanyTab(); };
     tilesWrap.appendChild(tile);
   });
 
-  // People grid for the active dept (Company tab only)
-  const dept = DATA.departments.find(d => d.id === activeDept);
-  $('active-dept-name').textContent = dept ? dept.name : '—';
-  renderPeopleInto($('people'), dept, view);
+  // All-team grid — everyone across departments, in dept order (Accounts, Design, Video)
+  renderAllPeople($('people'), view);
 
   // Update Company-tab toggle state
   const curBtn = $('toggle-current'), finBtn = $('toggle-final');
@@ -890,6 +792,45 @@ function renderPeopleInto(wrap, dept, view) {
     `;
     card.onclick = () => openPanel(dept, p, view);
     wrap.appendChild(card);
+  });
+}
+
+/* ===== Render ALL people across all departments in one grid (Company tab) ===== */
+function renderAllPeople(wrap, view) {
+  wrap.innerHTML = '';
+  const deptColors = {
+    accounts: 'var(--dept-accounts)',
+    design:   'var(--dept-design)',
+    video:    'var(--dept-video)'
+  };
+  let idx = 0;
+  DATA.departments.forEach(dept => {
+    const deptColor = deptColors[dept.id] || 'var(--accent-teal)';
+    dept.people.forEach(p => {
+      const score = view === 'current' ? p.current : p.final;
+      const projects = view === 'current' ? p.currentProjects : p.finalProjects;
+      const card = document.createElement('div');
+      card.className = 'person';
+      card.style.setProperty('--dept-color', deptColor);
+      card.style.animationDelay = (idx * 0.03) + 's';
+      card.innerHTML = `
+        <div class="person-top">
+          <div class="avatar">${initials(p.name)}</div>
+          <div class="person-name-wrap">
+            <div class="person-name">${p.name}</div>
+            <div class="person-role">${p.role}</div>
+          </div>
+        </div>
+        ${score == null
+          ? `<div class="person-na">No completed work yet</div>
+             <div class="person-projects">${projects || 0} completed projects</div>`
+          : `<div class="person-score ${scoreClass(score)}">${fmtPct(score)}<span class="pct">%</span></div>
+             <div class="person-projects">${projects || 0} ${view === 'current' ? 'active' : 'completed'} projects</div>`}
+      `;
+      card.onclick = () => openPanel(dept, p, view);
+      wrap.appendChild(card);
+      idx++;
+    });
   });
 }
 
@@ -996,9 +937,8 @@ function switchTab(tabId) {
   ['company','accounts','design','video'].forEach(id => {
     $('view-' + id).classList.toggle('hidden', id !== tabId);
   });
-  // Re-render the newly-visible view (important for Chart.js resize in Company tab)
+  // Re-render the newly-visible view
   if (tabId === 'company') {
-    renderRevenue();
     renderCompanyTab();
   } else {
     renderDeptTab(tabId);
